@@ -15,20 +15,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body>
-        <div class="overlay">
-            <div class="menucontainer">
-                <nav class="menu">
-                    <ul>
-                        <li>Visit My Company</li>
-                        <li><a href="pages/About-Us.html">About Us</a></li>
-                            <ul>
-                                <li><a href=pages/about-us.html>Our Story</a></li>
-                            </ul>
-                        <li></li>
-                    </ul>
-                </nav>
-            </div>.
+    <body>  
+    <?php include 'template/menu.html'; ?>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
