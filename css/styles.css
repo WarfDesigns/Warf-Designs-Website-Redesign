@@ -1,6 +1,107 @@
 body {
     background-color: white;
     color: black;
-    font-family: OpenSans;
+    font-family: "Open Sans", serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.menucontainer {
+    position: sticky;
+    top: 0;
+    background: black;
+    color: white;
+    padding-top: 1%;
+    padding-bottom:1%;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;  
+    padding: 0px;
+}
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.nav {
+    position: center;
+}
+
+/* Dropdown styling */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+      
+nav ul li {
+    position: relative; /* Needed for positioning the dropdown */
+    }
+      
+nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    background-color:black;
+}
+      
+
+/* Dropdown Styles */
+nav ul li ul {
+    display: none;              /* Hide dropdown by default */
+    position: absolute;         /* Position relative to the parent li */
+    top: 100%;                  /* Place it directly below the parent */
+    left: 0;
+    background-color: #333;
+    min-width: 160px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 1000;              /* Make sure it appears on top */
+}
+      
+nav ul li:hover ul {
+    display: block;             /* Show the dropdown on hover */
+}
+      
+nav ul li ul li a {
+    padding: 10px 20px;
+}
+      
+nav ul li ul li a:hover {
+    background-color: #575757;
+    }
+p {
+    font-family: "Open Sans", serif;
+    color: black;
+}
+
+.whitefont {
+    font-family: "Open Sans", serif;
+    color: white;
+}
