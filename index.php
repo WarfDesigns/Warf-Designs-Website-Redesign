@@ -16,12 +16,13 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>  
-    <?php include 'template/menu.html'; ?>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <p>test</p>
+    <?php include 'templates/menu.html'; ?>
+        <div>
+            <section>
+                <p>test</p>
+            </section>
+        </div>
         <script src="" async defer></script>
-        <footer>Copyright 2025 @ Warf Designs LLC</footer>
+        <?php include 'templates/footer.html'; ?>
     </body>
 </html>
