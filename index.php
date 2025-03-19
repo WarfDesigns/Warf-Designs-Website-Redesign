@@ -19,7 +19,8 @@
     <?php include 'templates/menu.html'; ?>
         <div>
             <section>
-                <p>test</p>
+                <h1>We Design</h1>
+                    <p>test</p>
             </section>
         </div>
         <script src="" async defer></script>
