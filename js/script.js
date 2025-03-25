@@ -1,9 +1,9 @@
 function loadpage(page) {
     const content = document.getElementById('content');
     if (page === 'index') {
-        content.innerHTML = '<h1>We Design</h1>';
+        content.innertext = '<h1>We Design</h1>';
     } else if (page === 'About-Us') {
-        content.innerHTML = '<h1>About Us</h1>';
+        content.innertext = '<h1>About Us</h1>';
     }
 }
 
@@ -14,7 +14,7 @@ function loadTemplates(url, elementId) {
         return response.text();
       })
       .then(data => {
-        document.getElementById(elementId).innerHTML = data;
+        document.getElementById(elementId).innertext = data;
       })
       .catch(error => console.error(error));
   }
