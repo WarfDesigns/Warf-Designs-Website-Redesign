@@ -1,6 +1,6 @@
 body {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     font-family: "Open Sans", serif;
     line-height: 1.6;
     margin: 0;
@@ -8,14 +8,37 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1400px;
     margin: 20px auto;
     padding: 20px;
     background: #fff;
-    border-radius: 8px;
+    border-radius: 3px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
+h1 {
+    color: black;
+    font-size: 50px;
+}
+
+h2 {
+    color: black;
+    font-size: 50px;
+}
+
+h3 {
+    color: black;
+    font-size: 50px;
+}
+
+h4 {
+    color: black;
+    font-size: 50px;
+}
+
+#logo {
+    position: relative;
+}
 .menucontainer {
     position: sticky;
     top: 0;
