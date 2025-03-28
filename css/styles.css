@@ -1,3 +1,66 @@
+.app-menu {
+    position: sticky;
+    top: 0;
+    background: black;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/* Dropdown styling */
+.app-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.app-menu ul li {
+    position: relative; /* Needed for positioning the dropdown */
+    }     
+.app-menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    background-color:black;
+}
+
+/* Dropdown Styles */
+.app-menu ul li ul {
+    display: none;              /* Hide dropdown by default */
+    position: absolute;         /* Position relative to the parent li */
+    top: 100%;                  /* Place it directly below the parent */
+    left: 0;
+    background-color: #333;
+    min-width: 160px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 1000;              /* Make sure it appears on top */
+}
+
+.app-menu ul li:hover ul {
+    display: block;             /* Show the dropdown on hover */
+}
+
+.app-menu ul li ul li a {
+    padding: 10px 20px;
+}
+
+.app-menu ul li ul li a:hover {
+    background-color: #575757;
+    }
+
+.appmenucontainer {
+    position: sticky;
+    top: 0;
+    background: black;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 body {
     background-color: black;
     color: white;
@@ -120,33 +183,36 @@ input[type="submit"] {
     color: black;
 }
 
-.nav {
-    position: center;
+#nav {
+    position: sticky;
+    top: 0;
+    background: black;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 /* Dropdown styling */
-nav ul {
+#nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
-      
-nav ul li {
+
+#nav ul li {
     position: relative; /* Needed for positioning the dropdown */
-    }
-      
-nav ul li a {
+    }     
+#nav ul li a {
     display: block;
     color: #fff;
     padding: 14px 20px;
     text-decoration: none;
     background-color:black;
 }
-      
 
 /* Dropdown Styles */
-nav ul li ul {
+#nav ul li ul {
     display: none;              /* Hide dropdown by default */
     position: absolute;         /* Position relative to the parent li */
     top: 100%;                  /* Place it directly below the parent */
@@ -158,16 +224,16 @@ nav ul li ul {
     list-style: none;
     z-index: 1000;              /* Make sure it appears on top */
 }
-      
-nav ul li:hover ul {
+
+#nav ul li:hover ul {
     display: block;             /* Show the dropdown on hover */
 }
-      
-nav ul li ul li a {
+
+#nav ul li ul li a {
     padding: 10px 20px;
 }
-      
-nav ul li ul li a:hover {
+
+#nav ul li ul li a:hover {
     background-color: #575757;
     }
 p {
