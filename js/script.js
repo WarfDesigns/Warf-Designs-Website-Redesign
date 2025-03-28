@@ -10,6 +10,8 @@ function loadPage(page) {
     case 'about-us':
       content.innerHTML = '<h1>About Us</h1>';
       break;
+    case 'contact-us':
+      content.innerHTML = '<h1>Contact Us</h1>';
     default:
       content.innerHTML = '<h1>Page Not Found</h1>';
       break;
