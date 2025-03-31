@@ -7,7 +7,7 @@
     padding-bottom: 1%;
 }
 
-/* Dropdown styling */
+
 .app-menu ul {
     list-style: none;
     margin: 0;
@@ -16,7 +16,7 @@
 }
 
 .app-menu ul li {
-    position: relative; /* Needed for positioning the dropdown */
+    position: relative; 
     }     
 .app-menu ul li a {
     display: block;
@@ -26,22 +26,22 @@
     background-color:black;
 }
 
-/* Dropdown Styles */
+
 .app-menu ul li ul {
-    display: none;              /* Hide dropdown by default */
-    position: absolute;         /* Position relative to the parent li */
-    top: 100%;                  /* Place it directly below the parent */
+    display: none;              
+    position: absolute;   
+    top: 100%;
     left: 0;
     background-color: #333;
     min-width: 160px;
     margin: 0;
     padding: 0;
     list-style: none;
-    z-index: 1000;              /* Make sure it appears on top */
+    z-index: 1000; 
 }
 
 .app-menu ul li:hover ul {
-    display: block;             /* Show the dropdown on hover */
+    display: block;
 }
 
 .app-menu ul li ul li a {
@@ -62,7 +62,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(241, 241, 241);
     color: white;
     font-family: "Open Sans", serif;
     line-height: 1.6;
@@ -99,6 +99,11 @@ body {
     border-radius: 6px;
 }
 
+footer {
+    background: black;
+    color: white;
+}
+
 h1 {
     color: black;
     font-size: 50px;
@@ -127,23 +132,23 @@ input[type="submit"] {
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-  }
+}
 
-  input[type="submit"]:hover {
+input[type="submit"]:hover {
     background-color: #45a049;
-  }
+}
 
-  input[type="text"],
-  input[type="number"],
-  select,
-  textarea {
+input[type="text"],
+input[type="number"],
+select,
+textarea {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
+}
 
 
 
@@ -201,7 +206,7 @@ input[type="submit"] {
 }
 
 #nav ul li {
-    position: relative; /* Needed for positioning the dropdown */
+    position: relative; 
     }     
 #nav ul li a {
     display: block;
@@ -211,22 +216,22 @@ input[type="submit"] {
     background-color:black;
 }
 
-/* Dropdown Styles */
+
 #nav ul li ul {
-    display: none;              /* Hide dropdown by default */
-    position: absolute;         /* Position relative to the parent li */
-    top: 100%;                  /* Place it directly below the parent */
+    display: none;              
+    position: absolute;         
+    top: 100%;                  
     left: 0;
     background-color: #333;
     min-width: 160px;
     margin: 0;
     padding: 0;
     list-style: none;
-    z-index: 1000;              /* Make sure it appears on top */
+    z-index: 1000;              
 }
 
 #nav ul li:hover ul {
-    display: block;             /* Show the dropdown on hover */
+    display: block;             
 }
 
 #nav ul li ul li a {
@@ -246,13 +251,13 @@ p {
     align-items: center;
     justify-content: space-between;
     margin: 15px 0;
-  }
+}
 
-  .toggle-group label {
+.toggle-group label {
     font-weight: bold;
-  }
+}
 
-  .slider {
+.slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -262,9 +267,9 @@ p {
     background-color: #ccc;
     transition: 0.4s;
     border-radius: 34px;
-  }
+}
 
-  .slider:before {
+.slider:before {
     position: absolute;
     content: "";
     height: 26px;
@@ -274,25 +279,25 @@ p {
     background-color: white;
     transition: 0.4s;
     border-radius: 50%;
-  }
-  .switch input:checked + .slider {
+}
+.switch input:checked + .slider {
     background-color: #4CAF50;
-  }
-  .switch input:checked + .slider:before {
+}
+.switch input:checked + .slider:before {
     transform: translateX(26px);
-  }
-  .switch {
+}
+.switch {
     position: relative;
     display: inline-block;
     width: 60px;
     height: 34px;
-  }
+}
 
-  .switch input {
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
+}
 
 .whitefont {
     font-family: "Open Sans", serif;
