@@ -1,65 +1,77 @@
-.app-menu {
-    position: sticky;
-    top: 0;
-    background: black;
-    color: white;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) { ... }
 
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) { ... }
 
-.app-menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) { ... }
 
-.app-menu ul li {
-    position: relative; 
-    }     
-.app-menu ul li a {
-    display: block;
-    color: #fff;
-    padding: 14px 20px;
-    text-decoration: none;
-    background-color:black;
-}
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 1400px) { ... }
 
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {}
 
-.app-menu ul li ul {
-    display: none;              
-    position: absolute;   
-    top: 100%;
-    left: 0;
-    background-color: #333;
-    min-width: 160px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    z-index: 1000; 
-}
-
-.app-menu ul li:hover ul {
-    display: block;
-}
-
-.app-menu ul li ul li a {
-    padding: 10px 20px;
-}
-
-.app-menu ul li ul li a:hover {
-    background-color: #575757;
-    }
-
+/* Container */
 .appmenucontainer {
-    position: sticky;
-    top: 0;
-    background: black;
-    color: white;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  /* Main nav */
+  .app-menu ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header */
+  .menu-header {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  /* Menu links */
+  .app-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .submenu {
+    margin-top: 5px;
+    padding-left: 15px;
+  }
+  
+  .submenu li a {
+    font-size: 13px;
+    color: #555;
+  }
+  
+  .app-menu i {
+    font-size: 16px;
+    color: #007bff;
+  }
+
+  @media (min-width: 768px) {
+    .appmenucontainer {
+    display: none;
 }
+}
+
 
 body {
     background-color: rgb(241, 241, 241);
@@ -102,7 +114,12 @@ body {
 footer {
     background: black;
     color: white;
+    height: auto;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom:5%;
 }
+
 
 h1 {
     color: black;
