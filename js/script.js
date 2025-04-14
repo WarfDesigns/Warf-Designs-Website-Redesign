@@ -1,4 +1,3 @@
-// Dynamically inject content based on the page identifier
 function loadPage(page) {
   const content = document.getElementById('content');
   if (!content) return;
@@ -18,7 +17,6 @@ function loadPage(page) {
   }
 }
 
-// Load an external HTML template into a specific element
 function loadTemplate(url, elementId) {
   fetch(url)
     .then(response => {
@@ -36,7 +34,6 @@ function loadTemplate(url, elementId) {
     .catch(error => console.error('Error loading template:', error));
 }
 
-// Load shared templates across all pages
 document.addEventListener("DOMContentLoaded", () => {
   loadTemplate('/templates/menu.html', 'nav');
   loadTemplate('/templates/footer.html', 'footer');
