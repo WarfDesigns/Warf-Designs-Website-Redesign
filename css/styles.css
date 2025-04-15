@@ -21,28 +21,33 @@
     background-color: #ffffff;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-  }
-  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
   /* Main nav */
-  .app-menu ul {
+.appMenu {
     list-style: none;
     padding: 10px;
     margin: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-  }
-  
+    justify-content: center;
+}
+
   /* Header */
-  .menu-header {
+.menu-header {
     font-weight: bold;
     text-align: center;
     margin-bottom: 5px;
     font-size: 14px;
-  }
-  
+}
+
   /* Menu links */
-  .app-menu a {
+.appMenu a {
     text-decoration: none;
     color: #333;
     font-size: 14px;
@@ -50,23 +55,23 @@
     display: flex;
     align-items: center;
     gap: 8px;
-  }
-  .submenu {
+}
+.submenu {
     margin-top: 5px;
     padding-left: 15px;
-  }
-  
-  .submenu li a {
+}
+
+.submenu li a {
     font-size: 13px;
     color: #555;
-  }
-  
-  .app-menu i {
+}
+
+.appMenu i {
     font-size: 16px;
     color: #007bff;
-  }
+}
 
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .appmenucontainer {
     display: none;
 }
