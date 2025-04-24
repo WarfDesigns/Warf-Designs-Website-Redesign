@@ -43,3 +43,4 @@ document.addEventListener("DOMContentLoaded", () => {
   loadTemplate('/templates/appointment-form.html', 'appointmentForm');
   loadTemplate('/templates/website-questionnaire.html', 'websiteQuestionnaire');
 });
+document.
