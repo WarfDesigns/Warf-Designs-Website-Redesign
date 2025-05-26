@@ -28,10 +28,14 @@ Ensure a visually appealing and user-friendly application.
  1. Namesilo API: Integrate namesilo API to fetch and display current domains available for purchase.
  2. Stripe API: Integrate stripe API to purchase products and sign up for subscriptions.
 
-
-IV. Data Handling and Analysis
+<h2>IV. Data Handling and Analysis</h2>
 1. Data Storage, Retrieval, and Visualization 
     - Store pricing on one page.
     - Using javascript, add the pricing to all locations needed on site.
     - Display the pricing using styling according to the theme of the site.
 
+<h2>V. Advanced Features</h2>
+ 1. Interactive UI Features
+    - Implement features like data sorting, autocomplete for location input, and interactive date-picker for date selection.
+ 2. Data Persistence
+    - Persist data to an external API and make it accessible within the app, even after a reload/refresh.
