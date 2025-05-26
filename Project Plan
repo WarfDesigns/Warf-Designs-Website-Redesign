@@ -50,17 +50,17 @@ Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PH
 <p>  - Present the project to peers or mentors for feedback.</p>
 <p>  - Incorporate feedback to refine and polish the application.</p>
 
-VIII. Documentation and Final Submission
+<h2>VIII. Documentation and Final Submission</h2>
 
-    1. Code Annotation and Documentation
-Annotate code with clear comments and explanations.
-Write a comprehensive README.md file covering:
-Project overview and objectives.
-Setup and installation instructions.
-Usage guidelines and feature descriptions.
-Data sources and API integration details.
-    2. Final Submission
-Ensure the project is fully functional and well-documented.
-Prepare the project for final presentation or submission to evaluators.
+<p>    1. Code Annotation and Documentation</p>
+<p>  - Annotate code with clear comments and explanations.</p>
+<p>  - Write a comprehensive README.md file covering:</p>
+<p>  - Project overview and objectives.</p>
+<p>  - Setup and installation instructions.</p>
+<p>  - Usage guidelines and feature descriptions.</p>
+<p>  - Data sources and API integration details.</p>
+<p>    2. Final Submission</p>
+<p>  - Ensure the project is fully functional and well-documented.</p>
+<p>  - Prepare the project for final presentation or submission to evaluators.</p>
 
 This outline provides a structured approach to developing a responsive web application focused on weather patterns and CO2 emissions. It includes steps for responsive design, feature implementation, data handling, advanced features, project development, review, and documentation to ensure the project meets all requirements and is attractive to potential employers or evaluators.
