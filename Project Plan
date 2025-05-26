@@ -18,11 +18,12 @@ Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PH
 
 <h2>III. Feature Implementation</h2>
  1. Selected Features
-    <p>  - Feature 1: Use arrays, objects, sets, or maps to store and retrieve information displayed in the app (pricing structure).</p>
-    <p>  - Feature 2: Visualize data in a user-friendly way (products).</p>
-    <p>  - Feature 3: Retrieve data from a third-party API and display it in a domain search.</p>
-    <p>  - Feature 4: Filter for filtering products using modern UI features.</p>
-    <p>  - Feature 5: Using javascript, dynamically add the footer, and header to all pages of the website.</p>
+ <br></br>
+    <p>  - <b>Feature 1:</b> Use arrays, objects, sets, or maps to store and retrieve information displayed in the app (pricing structure).</p>
+    <p>  - <b>Feature 2:</b> Visualize data in a user-friendly way (products).</p>
+    <p>  - <b>Feature 3:</b> Retrieve data from a third-party API and display it in a domain search.</p>
+    <p>  - <b>Feature 4:</b> Filter for filtering products using modern UI features.</p>
+    <p>  - <b>Feature 5:</b> Using javascript, dynamically add the footer, and header to all pages of the website.</p>
 
 <h2>Integration of Third-Party API</h2>
 <p> 1. Namesilo API: Integrate namesilo API to fetch and display current domains available for purchase.</p>
