@@ -11,18 +11,27 @@ Utilize third-party APIs for data retrieval.
 Ensure a visually appealing and user-friendly application.
 
 <h2>II. Responsive Design</h2>
-Implementation
-Media Queries: Implement media queries to adapt the layout for mobile and desktop screen sizes.
-CSS Grid and Flexbox: Use CSS Grid and Flexbox to create flexible and responsive layouts.
-Responsive Components: Ensure all components (forms, tables) adjust appropriately across different devices.
+ 1. Implementation
+    - Media Queries: Implement media queries to adapt the layout for mobile and desktop screen sizes.
+    - CSS Grid and Flexbox: Use CSS Grid and Flexbox to create flexible and responsive layouts.
+    - Responsive Components: Ensure all components (forms, tables) adjust appropriately across different devices.
 
 <h2>III. Feature Implementation</h2>
-Selected Features
-Feature 1: Use arrays, objects, sets, or maps to store and retrieve information displayed in the app (pricing structure).
-Feature 2: Visualize data in a user-friendly way (products).
-Feature 3: Retrieve data from a third-party API and display it in a domain search.
-Feature 4: Filter for filtering products using modern UI features.
+ 1. Selected Features
+    - Feature 1: Use arrays, objects, sets, or maps to store and retrieve information displayed in the app (pricing structure).
+    - Feature 2: Visualize data in a user-friendly way (products).
+    - Feature 3: Retrieve data from a third-party API and display it in a domain search.
+    - Feature 4: Filter for filtering products using modern UI features.
+    - Feature 5: Using javascript, dynamically add the footer, and header to all pages of the website.
 
 <h2>Integration of Third-Party API</h2>
-Namesilo API: Integrate namesilo API to fetch and display current domains available for purchase.
-Stripe API: Integrate stripe API to purchase products and sign up for subscriptions.
+ 1. Namesilo API: Integrate namesilo API to fetch and display current domains available for purchase.
+ 2. Stripe API: Integrate stripe API to purchase products and sign up for subscriptions.
+
+
+IV. Data Handling and Analysis
+1. Data Storage, Retrieval, and Visualization 
+    - Store pricing on one page.
+    - Using javascript, add the pricing to all locations needed on site.
+    - Display the pricing using styling according to the theme of the site.
+
