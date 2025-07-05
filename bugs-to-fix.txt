@@ -1,0 +1,4 @@
+1. Menu going behind the reviews section, front page.
+2. Fix the javascript for the templates.
+3. Style Footer.
+4. Verify Style of the Nav looks ok.
