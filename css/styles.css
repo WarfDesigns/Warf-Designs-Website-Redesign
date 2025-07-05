@@ -1,16 +1,16 @@
-// Medium devices (tablets, 768px and up)
+/* Medium devices (tablets, 768px and up)
 @media (max-width: 768px) { ... }
 
-// Large devices (desktops, 992px and up)
+//* Large devices (desktops, 992px and up)
 @media (max-width: 992px) { ... }
 
-// X-Large devices (large desktops, 1200px and up)
+//* X-Large devices (large desktops, 1200px and up)
 @media (max-width: 1200px) { ... }
 
-// XX-Large devices (larger desktops, 1400px and up)
+//* XX-Large devices (larger desktops, 1400px and up)
 @media (max-width: 1400px) { ... }
 
-// Small devices (landscape phones, 576px and up)
+//* Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {}
 
 /* Container */
@@ -123,6 +123,10 @@ footer {
     width: 100%;
     padding-top: 5%;
     padding-bottom:5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center; 
 }
 
 
@@ -328,6 +332,11 @@ p {
     font-family: "Open Sans", serif;
     color: white;
 }
-
+.videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+}
 
 
