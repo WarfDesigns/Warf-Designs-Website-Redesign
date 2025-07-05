@@ -189,7 +189,11 @@ textarea {
     padding-bottom:1%;
     
 }
+.reviews {
+    max-width: 1400px;
+    justify-self: center;
 
+}
 .menu {
     display: flex;
     justify-content: center;
