@@ -275,6 +275,11 @@ p {
     color: black;
 }
 
+.products {
+    display: block;
+    max-width: 250px;
+}
+
 .toggle-group {
     display: flex;
     align-items: center;
