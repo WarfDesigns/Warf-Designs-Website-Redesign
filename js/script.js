@@ -11,6 +11,7 @@ function loadPage(page) {
       break;
     case 'contact-us':
       content.innerHTML = '<h1>Contact Us</h1>';
+      break;
     default:
       content.innerHTML = '<h1>Page Not Found</h1>';
       break;
@@ -42,5 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
   loadTemplate('/templates/product-display.html', 'productDisplay');
   loadTemplate('/templates/appointment-form.html', 'appointmentForm');
   loadTemplate('/templates/website-questionnaire.html', 'websiteQuestionnaire');
+  loadTemplate('/templates/header.html', 'header')
 });
-document.
+

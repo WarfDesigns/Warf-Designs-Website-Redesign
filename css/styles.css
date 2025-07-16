@@ -1,17 +1,21 @@
-/* Medium devices (tablets, 768px and up)
-@media (max-width: 768px) { ... }
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .appmenucontainer {
+        display: none;
+    }
+}
 
-//* Large devices (desktops, 992px and up)
-@media (max-width: 992px) { ... }
+ /* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { }
 
-//* X-Large devices (large desktops, 1200px and up)
-@media (max-width: 1200px) { ... }
 
-//* XX-Large devices (larger desktops, 1400px and up)
-@media (max-width: 1400px) { ... }
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    #nav {
+    display: none;
+}
+}
 
-//* Small devices (landscape phones, 576px and up)
-@media (max-width: 576px) {}
 
 /* Container */
 .appmenucontainer {
@@ -70,13 +74,6 @@
     font-size: 16px;
     color: #007bff;
 }
-
-@media (min-width: 768px) {
-    .appmenucontainer {
-    display: none;
-}
-}
-
 
 body {
     background-color: rgb(241, 241, 241);
@@ -189,12 +186,14 @@ textarea {
     top: 0;
     background: black;
     color: white;
-    padding-top: 1%;
-    padding-bottom:1%;
+    padding-top: 0%;
+    padding-bottom:0%;
+    z-index: 9999; 
 }
 .reviews {
     max-width: 1400px;
     justify-self: center;
+    z-index: 1;
 
 }
 .menu {
@@ -343,5 +342,3 @@ p {
     justify-items: center;
     gap: 20px;
 }
-
-
