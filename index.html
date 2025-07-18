@@ -10,7 +10,10 @@
         <div id="nav"></div>
         <div class="container">
             <section>
-                <div id="content"></div><h1>Warf Designs <strong>ARE</strong> Epic</h1>
+                <img src="/img/logo/Logo-Black-Only copy.png" class="BigLogo" alt="Warf Designs LLC Logo">
+            </section>
+            <section>
+                <div id="content"></div><h1>Welcome to Warf Designs</h1>
                     <p>We have a variety of services that we offer to help you and your business thrive. Warf Designs provides services that are rare in Kentucky to find.</p>
                         <section id="menu"></section>
             </section>
@@ -19,7 +22,34 @@
                     <div class="container">
             <section>
                 <h2>What's your Epic Domain Name?</h2>
-                    <p> </p>
+                          <input type="text" id="domainInput" placeholder="Enter domain (e.g. example.com)">
+  <button onclick="checkDomain()">Check</button>
+  <div id="result"></div>
+
+  <script>
+    function checkDomain() {
+      const domain = document.getElementById('domainInput').value;
+      const resultDiv = document.getElementById('result');
+
+      if (!domain) {
+        resultDiv.innerHTML = "Please enter a domain.";
+        return;
+      }
+
+      fetch('secure.php?domain=' + encodeURIComponent(domain))
+        .then(res => res.json())
+        .then(data => {
+          const available = data.namesilo.reply.available[0].available;
+          resultDiv.innerHTML = available === "yes"
+            ? `<strong>${domain}</strong> is <span style="color:green;">Available!</span>`
+            : `<strong>${domain}</strong> is <span style="color:red;">Taken.</span>`;
+        })
+        .catch(err => {
+          resultDiv.innerHTML = "Error checking domain.";
+          console.error(err);
+        });
+    }
+  </script>
             </section>
             <section>
                 
