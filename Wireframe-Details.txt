@@ -16,5 +16,8 @@
 <h1>Showcase Section</h1>
 <p>This section will have a showcase gallery of work I have done.</p>
 
+<h1>Let's Connect Form</h1>
+<p>This section will have a contact form for customers to fill out to contact me.</p>
+
 <h1>Footer</h1>
 <p>This will have social icons, couple pages, and it will have some other icons and logos afffiliated or that partner with me.</p>
