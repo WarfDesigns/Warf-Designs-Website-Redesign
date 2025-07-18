@@ -1,44 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Date Picker Form</title>
-
-  <!-- Flatpickr CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
-
-  <style>
-    form {
-      background: #222;
-      padding: 20px;
-      border-radius: 10px;
-      max-width: 400px;
-    }
-    input[type="text"], input[type="submit"] {
-      width: 100%;
-      padding: 10px;
-      margin-top: 10px;
-      border-radius: 5px;
-      border: none;
-    }
-    input[type="submit"] {
-      background-color: #4CAF50;
-      color: white;
-      cursor: pointer;
-    }
-    label {
-      font-weight: bold;
-    }
-  </style>
-</head>
-<body>
-
+<div class="center">
   <form action="/submit" method="post">
-    <label for="appointment">Choose Date and Time:</label>
+    <label for="appointment">Let's Connect!</label>
     <input type="text" id="appointment" name="appointment" placeholder="Select date and time" required>
 
-    <input type="submit" value="Book Appointment">
+    <input type="submit" value="Book Appointment"> <a href="https://www.linkedin.com/in/brent-warf-867b1667/" target="_blank" rel="noopener noreferrer">Connect with me on LinkedIn</a>
   </form>
 
   <!-- Flatpickr JS -->
@@ -46,10 +13,9 @@
   <script>
     flatpickr("#appointment", {
       enableTime: true,
-      dateFormat: "Y-m-d H:i",
+      dateFormat: "m-d-Y H:i",
       minDate: "today"
     });
   </script>
-
-</body>
+</div>
 </html>
