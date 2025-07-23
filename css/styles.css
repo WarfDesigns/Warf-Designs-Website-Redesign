@@ -123,9 +123,8 @@ footer {
     width: 100%;
     padding-top: 5%;
     padding-bottom:5%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center; 
 }
 
