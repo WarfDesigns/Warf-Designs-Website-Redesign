@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
   loadTemplate('/templates/product-display.html', 'productDisplay');
   loadTemplate('/templates/appointment-form.html', 'appointmentForm');
   loadTemplate('/templates/website-questionnaire.html', 'websiteQuestionnaire');
+  loadTemplate('/templates/contact.html', 'contact');
   loadTemplate('/templates/header.html', 'header')
 });
 
