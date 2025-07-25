@@ -76,7 +76,6 @@ Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PH
 <h2>IV Integration of Third-Party API</h2>
 <p> 1. Namesilo API: Integrate namesilo API to fetch and display current domains available for purchase.</p>
 <p> 2. Captcha API: Added for the form.</p>
-<p> 3. Embed Map API: Added for the website.</p>
 
 
 
@@ -100,12 +99,15 @@ Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PH
 <h2>VII. Documentation and Final Submission</h2>
 
 <p>    1. Code Annotation and Documentation</p>
-<p>  - Annotate code with clear comments and explanations.</p>
-<p>  - Write a comprehensive README.md file covering:</p>
-<p>  - Project overview and objectives.</p>
-<p>  - Setup and installation instructions.</p>
-<p>  - Usage guidelines and feature descriptions.</p>
-<p>  - Data sources and API integration details.</p>
+<p>- Annotate code with clear comments and explanations.</p>
+
+<p>Write a comprehensive README.md file covering:</p>
+<ul>
+   <li>Project overview and objectives.</li>
+   <li>Setup and installation instructions.</li>
+   <li>Usage guidelines and feature descriptions.</li>
+   <li>Data sources and API integration details.</li>
+</ul>
 
 <p>    2. Final Submission</p>
 <p>  - Ensure the project is fully functional and well-documented.</p>
