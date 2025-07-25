@@ -111,6 +111,7 @@ body {
     margin: 20px auto;
     padding: 20px;
     background: #fff;
+    color:black;
     border-radius: 3px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
@@ -319,7 +320,6 @@ label {
     }
 p {
     font-family: "Open Sans", serif;
-    color: black;
 }
 
 .products {
