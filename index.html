@@ -24,8 +24,16 @@
         <div id="nav"></div>
         <div class="container">
             <section>
+<<<<<<< HEAD
+                <img src="/img/logo/Logo-Black-Only copy.png" class="BigLogo" alt="Warf Designs LLC Logo">
+            </section>
+            <section>
+                <div id="content"></div><h1>Welcome to Warf Designs</h1>
+                    <p>We have a variety of services that we offer to help you and your business thrive. Warf Designs provides services that are rare in Kentucky to find.</p>
+=======
                 <div id="content"></div><h1>Warf Designs <strong>ARE</strong> Epic</h1>
                     <p>Warf Designs provides services that are rare to find. We provide an expanded digitizing service that extends to Libraries and consumers alike. Take a look at our epic services to see more.</p>
+>>>>>>> f5e34b00af2798373697b30064f2a2952129c4a0
                         <section id="menu"></section>
             </section>
             
@@ -33,7 +41,41 @@
                     <div class="container">
             <section>
                 <h2>What's your Epic Domain Name?</h2>
-                    <p> </p>
+                            <input type="text" id="domainInput" placeholder="Search for Your Epic Domain Name! (e.g. example.com)">
+   <button onclick="checkDomain()">Check</button>
+  <div id="result"></div>
+
+  <script>
+    async function checkDomain() {
+      const domain = document.getElementById('domainInput').value.trim();
+      const resultDiv = document.getElementById('result');
+      
+      if (!domain) {
+        resultDiv.innerHTML = "Please enter a domain name.";
+        return;
+      }
+
+      const apiKey = '9805d1f35bb5891b4d7ad'; // Not secure, demo only
+      const url = `https://www.namesilo.com/api/checkRegisterAvailability?version=1&type=json&key=${apiKey}&domains=${encodeURIComponent(domain)}`;
+
+      try {
+        const response = await fetch(url);
+        const data = await response.json();
+
+        if (data.namesilo && data.namesilo.reply && data.namesilo.reply.available) {
+          const status = data.namesilo.reply.available[0].available;
+          resultDiv.innerHTML = status === 'yes'
+            ? `<strong>${domain}</strong> is <span style="color:green;">AVAILABLE ✅</span>`
+            : `<strong>${domain}</strong> is <span style="color:red;">TAKEN ❌</span>`;
+        } else {
+          resultDiv.innerHTML = "Unexpected response. Try again.";
+        }
+      } catch (err) {
+        console.error(err);
+        resultDiv.innerHTML = "Error checking domain.";
+      }
+    }
+  </script>
             </section>
             <section>
                 

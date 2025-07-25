@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
     .appmenucontainer {
@@ -9,15 +11,31 @@
 @media (max-width: 992px) {  }
 
 
+>>>>>>> f5e34b00af2798373697b30064f2a2952129c4a0
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
     #nav {
     display: none;
 }
+.BigLogo {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20%;
+    padding-top: 20%;
 }
-
-
-/* Container */
+  /* Menu links */
+.appMenu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}    
+    /* Container */
 .appmenucontainer {
     position: fixed;
     bottom: 0;
@@ -41,6 +59,15 @@
     align-items: center;
     justify-content: center;
 }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .appmenucontainer {
+        display: none;
+    }
+}
+
 
   /* Header */
 .menu-header {
@@ -50,16 +77,7 @@
     font-size: 14px;
 }
 
-  /* Menu links */
-.appMenu a {
-    text-decoration: none;
-    color: #333;
-    font-size: 14px;
-    padding: 8px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
+
 .submenu {
     margin-top: 5px;
     padding-left: 15px;
@@ -74,7 +92,14 @@
     font-size: 16px;
     color: #007bff;
 }
-
+.BigLogo {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20%;
+    padding-top: 20%;
+}
 body {
     background-color: rgb(241, 241, 241);
     color: white;
@@ -100,7 +125,9 @@ body {
     align-items: center;
     padding: 1%;
 }
-
+#result {
+    color: black;
+}
 .epicbtn {
     color: white;
     background-color: black;
