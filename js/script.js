@@ -43,6 +43,19 @@ document.addEventListener("DOMContentLoaded", () => {
   loadTemplate('/templates/product-display.html', 'productDisplay');
   loadTemplate('/templates/appointment-form.html', 'appointmentForm');
   loadTemplate('/templates/website-questionnaire.html', 'websiteQuestionnaire');
+  loadTemplate('/templates/contact.html', 'contact');
   loadTemplate('/templates/header.html', 'header')
 });
 
+
+document.getElementById("myForm").addEventListener("submit", function (e) {
+  const nameInput = document.getElementById("Name");
+  const error = document.getElementById("nameError");
+  const namePattern = /^[A-Za-z\s]+$/;
+    if (!namePattern.test(nameInput.value.trim())) {
+    e.preventDefault(); 
+    error.style.display = "block";
+  } else {
+    error.style.display = "none";
+  }
+});

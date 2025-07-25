@@ -17,7 +17,6 @@ This is a redesign of my current WordPress website. Always preferred a custom bu
 | Page | Description |
 |------|-------------|
 | **Home** | The landing page provides users with some information about Warf Designs, and what I do for a living. It will also list the products on the page. |
-| **Sign A Contract** | This page will have a custom contract that can be signed and emailed to me after they have decided to move forward with a website design plan. |
 | **Contact Us** | Will have a form where customers can contact me by email. It will also have a google captcha for verification that the person is not a robot filling in the form. |
 | **Domain Search** | This page will have a custom domain search. Give customers the ability to search for a domain that they want to use. |
 | **About Us** | This page will have information about Warf Designs, and how I got started. |

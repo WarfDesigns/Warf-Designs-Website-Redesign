@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .appmenucontainer {
+        display: none;
+    }
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {  }
+
+
+>>>>>>> f5e34b00af2798373697b30064f2a2952129c4a0
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
     #nav {
@@ -136,9 +150,8 @@ footer {
     width: 100%;
     padding-top: 5%;
     padding-bottom:5%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center; 
 }
 
