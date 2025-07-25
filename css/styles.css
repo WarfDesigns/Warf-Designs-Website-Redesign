@@ -111,7 +111,9 @@ body {
     align-items: center;
     padding: 1%;
 }
-
+#result {
+    color: black;
+}
 .epicbtn {
     color: white;
     background-color: black;

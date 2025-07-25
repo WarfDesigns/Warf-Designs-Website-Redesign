@@ -22,32 +22,39 @@
                     <div class="container">
             <section>
                 <h2>What's your Epic Domain Name?</h2>
-                          <input type="text" id="domainInput" placeholder="Enter domain (e.g. example.com)">
-  <button onclick="checkDomain()">Check</button>
+                            <input type="text" id="domainInput" placeholder="Search for Your Epic Domain Name! (e.g. example.com)">
+   <button onclick="checkDomain()">Check</button>
   <div id="result"></div>
 
   <script>
-    function checkDomain() {
-      const domain = document.getElementById('domainInput').value;
+    async function checkDomain() {
+      const domain = document.getElementById('domainInput').value.trim();
       const resultDiv = document.getElementById('result');
-
+      
       if (!domain) {
-        resultDiv.innerHTML = "Please enter a domain.";
+        resultDiv.innerHTML = "Please enter a domain name.";
         return;
       }
 
-      fetch('secure.php?domain=' + encodeURIComponent(domain))
-        .then(res => res.json())
-        .then(data => {
-          const available = data.namesilo.reply.available[0].available;
-          resultDiv.innerHTML = available === "yes"
-            ? `<strong>${domain}</strong> is <span style="color:green;">Available!</span>`
-            : `<strong>${domain}</strong> is <span style="color:red;">Taken.</span>`;
-        })
-        .catch(err => {
-          resultDiv.innerHTML = "Error checking domain.";
-          console.error(err);
-        });
+      const apiKey = '9805d1f35bb5891b4d7ad'; // Not secure, demo only
+      const url = `https://www.namesilo.com/api/checkRegisterAvailability?version=1&type=json&key=${apiKey}&domains=${encodeURIComponent(domain)}`;
+
+      try {
+        const response = await fetch(url);
+        const data = await response.json();
+
+        if (data.namesilo && data.namesilo.reply && data.namesilo.reply.available) {
+          const status = data.namesilo.reply.available[0].available;
+          resultDiv.innerHTML = status === 'yes'
+            ? `<strong>${domain}</strong> is <span style="color:green;">AVAILABLE ✅</span>`
+            : `<strong>${domain}</strong> is <span style="color:red;">TAKEN ❌</span>`;
+        } else {
+          resultDiv.innerHTML = "Unexpected response. Try again.";
+        }
+      } catch (err) {
+        console.error(err);
+        resultDiv.innerHTML = "Error checking domain.";
+      }
     }
   </script>
             </section>
