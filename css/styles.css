@@ -242,9 +242,10 @@ label {
 .reviews {
     max-width: 1400px;
     justify-self: center;
-    z-index: 1;
-
+    z-index: 1; /* Keep this lower than nav */
+    position: relative; /* Ensure z-index applies */
 }
+
 .menu {
     display: flex;
     justify-content: center;
@@ -272,6 +273,7 @@ label {
     color: white;
     padding-top: 1%;
     padding-bottom: 1%;
+    z-index: 9999; 
 }
 
 /* Dropdown styling */
@@ -378,6 +380,12 @@ p {
     opacity: 0;
     width: 0;
     height: 0;
+}
+.ti-widget-container,
+div[id*="ti-widget"],
+.ti-widget {
+    z-index: 1 !important;
+    position: relative !important;
 }
 
 .whitefont {
