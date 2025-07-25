@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
     .appmenucontainer {
@@ -11,7 +9,6 @@
 @media (max-width: 992px) {  }
 
 
->>>>>>> f5e34b00af2798373697b30064f2a2952129c4a0
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
     #nav {
@@ -392,4 +389,10 @@ p {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     gap: 20px;
+}
+div.ti-widget.ti-no-profile-img {
+    display: hidden;
+}
+.ti-widget-container{
+    display: hidden;
 }
