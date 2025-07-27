@@ -48,9 +48,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-document.getElementById("myForm").addEventListener("submit", function (e) {
+document.getElementById("Form").addEventListener("submit", function (e) {
   const nameInput = document.getElementById("Name");
-  const error = document.getElementById("nameError");
+  const error = document.getElementById("nameofError");
   const namePattern = /^[A-Za-z\s]+$/;
     if (!namePattern.test(nameInput.value.trim())) {
     e.preventDefault(); 
