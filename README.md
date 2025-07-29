@@ -20,7 +20,7 @@ This is a redesign of my current WordPress website. Always preferred a custom bu
 | **Contact Us** | Will have a form where customers can contact me by email. It will also have a google captcha for verification that the person is not a robot filling in the form. |
 | **Domain Search** | This page will have a custom domain search. Give customers the ability to search for a domain that they want to use. |
 | **About Us** | This page will have information about Warf Designs, and how I got started. |
-| **Digitizing Services** | This page will have information about my digitizing services and pricing. |
+| **Digitizing Services** | This page will have information about my digitizing services and pricing. It will also include a calculator for estimating pricing for customers along with bulk pricing. |
 | **Website Design** | This page will showcase our website design services, and websites I've built. It will also detail the pricing and allow customers to pay through stripe for this service. It will require users to sign the contract agreement before proceeding to pay on stripes website. |
 | **Website Hosting** | This page will will discuss briefly what I offer in hosting and there will be a link directing customers to another site I use for managing customers' hosting. |
 | **WordPress Plugins** | This page will list plugins that I have built. |

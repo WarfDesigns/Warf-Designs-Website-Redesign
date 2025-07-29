@@ -143,9 +143,18 @@ body {
 }
 
 .container {
-    max-width: 1400px;
-    margin: 20px auto;
+    max-width: 90%;
+    margin: 0 auto; 
     padding: 20px;
+    background: #fff;
+    color:black;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.four-container {
+    max-width: 90%;
+    padding: 5%;
     background: #fff;
     color:black;
     border-radius: 3px;
@@ -221,6 +230,15 @@ form {
     border-radius: 5px;
     max-width: 1000px;
     }
+.four-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 5%;
+    gap: 20px;
+    color:black;
+    border-radius: 3px; 
+}
 
 input[type="submit"] {
     background-color: white;
