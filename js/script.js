@@ -1,3 +1,5 @@
+
+// This function loads a specific page content into the 'content' element
 function loadPage(page) {
   const content = document.getElementById('content');
   if (!content) return;

@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-<div class="center">
-  <form action="/submit" method="post">
-    <label for="appointment">Let's Connect!</label>
-    <input type="text" id="appointment" name="appointment" placeholder="Select date and time" required>
-
-    <input type="submit" value="Book Appointment"> <a href="https://www.linkedin.com/in/brent-warf-867b1667/" target="_blank" rel="noopener noreferrer">Connect with me on LinkedIn</a>
-  </form>
-
-  <!-- Flatpickr JS -->
-  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-  <script>
-    flatpickr("#appointment", {
-      enableTime: true,
-      dateFormat: "m-d-Y H:i",
-      minDate: "today"
-    });
-  </script>
-</div>
-</html>
+  <html lang="en">
+    <div>
+      <form id="Form">
+        <label for="Name">Full Name (letters and spaces only):</label><br>
+          <input type="text" id="Name" name="Name" required />
+            <div style="color:red; display:none;" id="NameError" >Please enter a valid name (letters and spaces only).</div>
+              <br>
+                <div style="color:white;">Email: </div>
+                  <input type="email" name="email" required>
+                    <br>
+                      <label for="Phone">Phone Number:</label><br>
+                        <input type="number" id="Phone" name="Phone" required/><br>
+                          <div style="color:red; display:none;" id="PhoneError" class="error">Please enter a valid phone number (letters and spaces only).</div>
+                            <label for="preferredDate">Preferred Appointment Date:</label><br>
+                              <input type="date" id="preferredDate" name="preferredDate" required><br><br>
+                                <div class="g-recaptcha" data-sitekey="6LewKo4rAAAAAFnveZyjnnKEZDtG0dgiu-jitiSP"></div>
+                                  <br>
+                                    <button type="submit">Submit</button>
+        </form> 
+    </div>
+  </html>
