@@ -56,6 +56,42 @@
     align-items: center;
     justify-content: center;
 }
+footer {
+    background: black;
+    color: white;
+    height: auto;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom:5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center; 
+}
+
+h1 {
+    color: black;
+    font-size: 30px;
+    text-align: center; 
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+h4 {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -338,6 +374,12 @@ p {
 
 .toggle-group label {
     font-weight: bold;
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
 }
 
 .slider {
