@@ -364,12 +364,13 @@ p {
     display: block;
     max-width: 250px;
 }
-
-.toggle-group {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 15px 0;
+#ReelCalculator,
+#VHSCalculator {
+    color: white;
+}
+#ReelTotal,
+#VHStotal {
+    font-size: 20px;
 }
 
 .toggle-group label {
@@ -380,6 +381,14 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
+    gap: 20px;
+}
+
+.three-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 20px;
 }
 
 .slider {

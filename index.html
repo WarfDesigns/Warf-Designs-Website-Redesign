@@ -98,16 +98,18 @@
                             <form id="Form">
                                 <label for="Name">Full Name (letters and spaces only):</label><br>
                                     <input type="text" id="Name" name="Name" required />
-                                        <div style="color:white;" id="nameofError" class="error">Please enter a valid name (letters and spaces only).</div>
+                                        <div style="color:red; display:none;" id="NameError" >Please enter a valid name (letters and spaces only).</div>
                                             <br>
-                                                <div style="color:white;">Email: </div><input type="email" name="email" required>
-                                                    <div class="g-recaptcha" data-sitekey="6LewKo4rAAAAAFnveZyjnnKEZDtG0dgiu-jitiSP"></div>
-                                                        <br>
-                                                            <label for="Phone">Phone Number:</label><br>
-                                                                <input type="number" id="Phone" name="Phone" required/><br>
-                                                                    <div style="color:white;" id="nameofError" class="error">Please enter a valid phone number (letters and spaces only).</div>
-                                                            <button type="submit">Submit</button>
-                        </form> 
+                                                <div style="color:white;">Email: </div>
+                                                    <input type="email" name="email" required>
+                                                            <br>
+                                                                <label for="Phone">Phone Number:</label><br>
+                                                                    <input type="number" id="Phone" name="Phone" required/><br>
+                                                                        <div style="color:red; display:none;" id="PhoneError" class="error">Please enter a valid phone number (letters and spaces only).</div>
+                                                                            <div class="g-recaptcha" data-sitekey="6LewKo4rAAAAAFnveZyjnnKEZDtG0dgiu-jitiSP"></div>
+                                                                            <br>
+                                                                                <button type="submit">Submit</button>
+                            </form> 
                         </section>
             </section>
             <section id="contact"></section>

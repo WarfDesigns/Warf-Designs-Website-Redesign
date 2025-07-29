@@ -36,6 +36,31 @@
             </section>
         </div>
         <div class="container">
+            <section class="two-column">
+                <form id="VHSCalculator">
+                    <label for="VHSprice">Price per VHS to Digital Copy ($):</label><br>
+                        <input type="number" id="VHSprice" value="7" step="0.01"><br><br>
+                    <label for="VHSAmount">How many VHS Tapes do you want to digitize?</label><br>
+                        <input type="number" id="VHSAmount" value="1"><br><br>
+                    <strong>Total: $<span id="VHStotal">7.00</span></strong>
+                    <br><br>
+                    <p><em>Note: All VHS Tapes cost $7 each. Add to flash drive for an extra $10 (added to total invoice).</em></p>
+                    <p><em>Discounts Applied if 100 or more VHS Tapes are ordered.</em></p>
+                </form>
+                <form id="ReelCalculator">
+                    <label for="ReelPrice">Price per 8mm Reel ($):</label><br>
+                        <input type="number" id="ReelPrice" value="30" step="0.01"><br><br>
+                    <label for="ReelAmount">How many 8mm Reels do you want to digitize?</label><br>
+                        <input type="number" id="ReelAmount" value="1"><br><br>
+                    <strong>Total: $<span id="ReelTotal">30.00</span></strong>
+                    <br><br>
+                    <p><em>Note: All 8mm Reels cost $30 each (regardless of size). Includes stabilization of film. Add to flash drive for an extra $10 (added to total invoice).</em></p>
+                    <p><em>Discounts Applied if 100 or more 8mm Reels are ordered.</em></p>
+                </form>
+                <script src="/js/calculators.js"></script>
+            </section>
+        </div>
+        <div class="container">
             <section>
                 <h2>Conversion to a Downloadable Digital Copy</h2>
                     <p>Formats Accepted:</p>
