@@ -4,9 +4,13 @@ function loadPage(page) {
   const content = document.getElementById('content');
   if (!content) return;
 
+  document.querySelectorAll('.Hosting-Login').forEach(Hosting-Login => {Hosting-Login.style.display = 'none'
+  });
+  
   switch (page.toLowerCase()) {
     case 'index':
       content.innerHTML = '<h1>We Design</h1>';
+      document.getElementById('Hosting-Login').style.display = 'block';
       break;
     case 'about-us':
       content.innerHTML = '<h1>About Us</h1>';

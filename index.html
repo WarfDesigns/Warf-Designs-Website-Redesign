@@ -15,10 +15,6 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
-    <!-- Flatpickr CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/material_blue.css" />
-    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     </header>
     <body>  
         <div id="nav"></div>
@@ -33,52 +29,9 @@
             </section>
             
         </div>
-                    <div class="container">
+        <div class="container">
             <section>
-                <h2>What's your Epic Domain Name?</h2>
-                            <input type="text" id="domainInput" placeholder="Search for Your Epic Domain Name! (e.g. example.com)">
-    <button onclick="checkDomain()">Check</button>
-        <div id="result"></div>
-
-    <script>
-        async function checkDomain() {
-        const domain = document.getElementById('domainInput').value.trim();
-        const resultDiv = document.getElementById('result');
-    
-    if (!domain) {
-        resultDiv.innerHTML = "Please enter a domain name.";
-        return;
-    }
-
-    const apiKey = '9805d1f35bb5891b4d7ad'; // Not secure, demo only
-    const url = `https://www.namesilo.com/api/checkRegisterAvailability?version=1&type=json&key=${apiKey}&domains=${encodeURIComponent(domain)}`;
-
-    try {
-        const response = await fetch(url);
-        const data = await response.json();
-
-        if (data.namesilo && data.namesilo.reply && data.namesilo.reply.available) {
-            const status = data.namesilo.reply.available[0].available;
-            resultDiv.innerHTML = status === 'yes'
-            ? `<strong>${domain}</strong> is <span style="color:green;">AVAILABLE ✅</span>`
-            : `<strong>${domain}</strong> is <span style="color:red;">TAKEN ❌</span>`;
-        } else {
-            resultDiv.innerHTML = "Unexpected response. Try again.";
-        }
-        } catch (err) {
-        console.error(err);
-        resultDiv.innerHTML = "Error checking domain.";
-        }
-    }
-    </script>
-            </section>
-            <section>
-                
-            </section>
-        </div>
-                <div class="container">
-            <section>
-                <a href="pages/Services/Website-Hosting/Website-Hosting.html"><img src="/img/whiteLogo.webp" class="products"> <button class="epicbtn">Hosting</button></a>
+                <a href="pages/Services/Website-Hosting/Website-Hosting.html"><button class="epicbtn">Hosting</button></a>
                 <a href="pages/Services/Website-Design.html"><button class="epicbtn">Website Design and Development</button></a>
                 <a href="pages/Services/Computer-Services/Computer-Repair.html"><button class="epicbtn">Tech Support</button></a>
                 <a href="pages/Services/Digitizing-Services/Digitize-Your-Photos-and-Videos.html"><button class="epicbtn">Digitizing Services</button></a>
@@ -86,7 +39,10 @@
                 <a href="pages/Services/Security-Cameras/Security-Cameras.html"><button class="epicbtn">Security Camera Installations</button></a>
                 <a href="pages/Services/Real-Estate/Realty-Express.html"><button class="epicbtn">Realty Express</button></a>
                 <a href="pages/Discounts/Discounts.html"><button class="epicbtn">Helpful Software and Discounts</button></a>
-            </section>
+        </section>
+        </div>
+        <div class="container">
+            <section id="contact"></section>
         </div>
         <div class="container">
             <section>
@@ -97,7 +53,6 @@
                             </div>
                     </section>
             </section>
-            <section id="contact"></section>
         </div>
             <footer id="footer"><script defer async src='https://cdn.trustindex.io/loader.js?f2a805d49e2247534c2688b9033'></script></footer>
             <script src="/js/script.js"></script>
