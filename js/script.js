@@ -4,22 +4,17 @@ function loadPage(page) {
   const content = document.getElementById('content');
   if (!content) return;
 
-  document.querySelectorAll('.Hosting-Login').forEach(Hosting-Login => {Hosting-Login.style.display = 'none'
+  document.querySelectorAll('.HostingLogin').forEach(HostingLogin => {HostingLogin.style.display = 'none';
   });
   
   switch (page.toLowerCase()) {
     case 'index':
       content.innerHTML = '<h1>We Design</h1>';
-      document.getElementById('Hosting-Login').style.display = 'block';
+      document.getElementById('HostingLogin').style.display = 'block';
       break;
-    case 'about-us':
-      content.innerHTML = '<h1>About Us</h1>';
-      break;
-    case 'contact-us':
-      content.innerHTML = '<h1>Contact Us</h1>';
-      break;
-    default:
-      content.innerHTML = '<h1>Page Not Found</h1>';
+    case 'website-hosting':
+      content.innerHTML = '<h1>Website Hosting</h1>';
+      document.getElementById('HostingLogin').style.display = 'block';
       break;
   }
 }
@@ -94,3 +89,31 @@ document.getElementById("Form").addEventListener("submit", function (e) {
     window.location.href = "/pages/Thank-You.html";
   }
 });
+
+//This function loads more videos when the button is clicked
+const videos = "Q-8yeKt1ULU,fKqzXpnBDZc,aTNzEcOokZc,D0t36FouM7M,GzP5RCDAgrI,z7X6Gq2ZC1k,A1Ut3-ANOvY,P4ABCX63pFQ".split(",");
+  let loaded = 0;
+  const step = 4;
+  const section = document.getElementById("load-more-videos");
+  const btn = document.getElementById("load-more-videos");
+
+  function loadVideos() {
+    const next = videos.slice(loaded, loaded + step);
+    next.forEach((id, i) => {
+      const iframe = document.createElement("iframe");
+      iframe.src = `https://www.youtube.com/embed/${id}?mute=1&loop=1&playlist=${id}` + (loaded === 0 && i === 0 ? "&autoplay=1" : "");
+      iframe.width = "100%";
+      iframe.height = "100%";
+      iframe.loading = "lazy";
+      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      iframe.allowFullscreen = true;
+      iframe.frameBorder = 0;
+      iframe.style.marginBottom = "30px";
+      container.appendChild(iframe);
+    });
+    loaded += step;
+    if (loaded >= videos.length) btn.style.display = "none";
+  }
+
+  btn.addEventListener("click", loadVideos);
+  loadVideos();
