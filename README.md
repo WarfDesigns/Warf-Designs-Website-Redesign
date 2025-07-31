@@ -66,6 +66,7 @@ Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PH
 
 <h2>II. Responsive Design</h2>
  1. Implementation
+ <br></br>
     <p> - Media Queries: Implement media queries to adapt the layout for mobile, tablet, and desktop screen sizes.</p>
     <p> - CSS Grid and Flexbox: Use CSS Grid and Flexbox to create flexible and responsive layouts.</p>
     <p> - Responsive Components: Ensure all components (forms, tables) adjust appropriately across different devices.</p>
@@ -80,24 +81,26 @@ Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PH
 <h2>IV Integration of Third-Party API</h2>
 <p> 1. Captcha API: Added for the form.</p>
 
-
-
 <h2>V. Advanced Features</h2>
  <p>  1. Interactive UI Features</p>
+ <br></br>
     <p>    - Implement features like data sorting, autocomplete for location input, and interactive date-picker for date selection.</p>
 <h2>VI. Review Process</h2>
 
 <p>    1. Internal Review</p>
+<br></br>
 <p>  - Perform thorough testing to ensure the application meets all specified requirements.</p>
 <p>  - Validate the responsiveness and functionality of all components.</p>
 
 <p>    2. External Feedback</p>
+<br></br>
 <p>  - Present the project to peers or mentors for feedback.</p>
 <p>  - Incorporate feedback to refine and polish the application.</p>
 
 <h2>VII. Documentation and Final Submission</h2>
 
 <p>    1. Code Annotation and Documentation</p>
+<br></br>
 <p>- Annotate code with clear comments and explanations.</p>
 
 <p>Write a comprehensive README.md file covering:</p>
@@ -109,6 +112,7 @@ Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PH
 </ul>
 
 <p>    2. Final Submission</p>
+<br></br>
 <p>  - Ensure the project is fully functional and well-documented.</p>
 <p>  - Prepare the project for final presentation or submission to evaluators.</p>
 
