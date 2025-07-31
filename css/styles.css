@@ -27,14 +27,15 @@ body {
     width: 100%;
 }
 
+
 .container {
-    max-width: 90%;
-    margin: 0 auto; 
-    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px; 
     background: #fff;
     color:black;
     border-radius: 3px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .four-container {
@@ -69,9 +70,13 @@ body {
     color: white;
     background-color: black;
     padding: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
     font-size: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    border-radius: 6px;   
+    border-radius: 6px;
+    width: 90%;
+    text-align:center;   
 }
 
 .epicbtn:hover {
@@ -249,9 +254,12 @@ body {
     color: white;
     background-color: black;
     padding: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
     font-size: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    border-radius: 6px;   
+    border-radius: 6px;
+    width: 30%; 
 }
 
 .epicbtn:hover {
@@ -375,10 +383,13 @@ label {
 }
 
 .menu {
-    display: flex;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    align-items: center;
     justify-content: center;
     list-style: none;  
     padding: 0px;
+    margin: 0;
 }
 .menu li {
     margin: 0 20px;
