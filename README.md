@@ -47,7 +47,7 @@ Eventually it will have forms for customers to sign contract agreements, forms f
 | **Retrieve data from a third-party API** | • Implemented captcha API for form.<br>|
 | **Use a regular expression to validate user input and either prevent the invalid input or inform the user about it (in all cases prevent invalid input from being stored or saved).** | • Created a form that does not allow submission without the correct characters. |
 |**Create a function that accepts two or more input parameters and returns a value that is calculated or determined by the inputs.  Basic math functions don’t count (e.g. addition, etc).**|  • Created a form that calculates the pricing of digitizing VHS tapes and reels based on the amount that a customer enters. Also after reaching 100 tapes or 100 reels, a discount of 10% off is included with VHS Tapes and a $5 off per reel discount is included.|
-| **Responsive Design** | • Implemented responsive layouts using a mix of Flexbox and Grid.<br>• Created media queries for different screen sizes<br>• Built with mobile-first approach |
+| **Responsive Design** | • Implemented responsive layouts using a mix of Flexbox and Grid.<br>• Created media queries for different screen sizes.<br>• Built with mobile-first approach. |
 
 
 
@@ -59,11 +59,11 @@ Objective: Develop a responsive website re-design of warfdesigns.com. Provide a 
 Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PHP, YouTube, API Configurations
 
 <h2>Goals:</h2>
-<p> Implement responsive design.</p>
-<p> Integrate various web development features.</p>
-<p> Utilize third-party APIs for data retrieval.</p>
-<p> Use iframe to add my business from google maps.</p>
-<p> Ensure a visually appealing and user-friendly application.</p>
+<p> - Implement responsive design.</p>
+<p> - Integrate various web development features.</p>
+<p> - Utilize third-party APIs for data retrieval.</p>
+<p> - Use iframe to add my business from google maps.</p>
+<p> - Ensure a visually appealing and user-friendly application.</p>
 
 <h2>II. Responsive Design</h2>
  1. Implementation
