@@ -59,11 +59,10 @@ Objective: Develop a responsive website re-design of warfdesigns.com. Provide a 
 Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PHP, YouTube, API Configurations
 
 <h2>Goals:</h2>
-<p> - Implement responsive design.</p>
-<p> - Integrate various web development features.</p>
-<p> - Utilize third-party APIs for data retrieval.</p>
-<p> - Use iframe to add my business from google maps.</p>
-<p> - Ensure a visually appealing and user-friendly application.</p>
+<p> <b>Implement responsive design.</b></p>
+<p> <b>Integrate various web development features.</b></p>
+<p> <b>Utilize third-party APIs for form security.</b></p>
+<p> <b>Ensure a visually appealing and user-friendly application.</b></p>
 
 <h2>II. Responsive Design</h2>
  1. Implementation
@@ -86,10 +85,6 @@ Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PH
 <h2>V. Advanced Features</h2>
  <p>  1. Interactive UI Features</p>
     <p>    - Implement features like data sorting, autocomplete for location input, and interactive date-picker for date selection.</p>
-    
- <p>  2. Data Persistence</p>
-    <p>    - Persist data to an external API and make it accessible within the app, even after a reload/refresh.</p>
-
 <h2>VI. Review Process</h2>
 
 <p>    1. Internal Review</p>
