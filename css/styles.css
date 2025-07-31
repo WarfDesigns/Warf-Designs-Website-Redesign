@@ -30,6 +30,8 @@ body {
 
 .container {
     max-width: 90%;
+    padding-right: 10%;
+    padding-left: 10%;
     margin: 0 auto;
     padding: 5%;
     background: #fff;
@@ -248,6 +250,8 @@ body {
 
 .container {
     max-width: 90%;
+    padding-right: 10%;
+    padding-left: 10%;
     margin: 0 auto; 
     padding: 20px;
     background: #fff;
@@ -643,6 +647,8 @@ footer a {
 }
 .container {
     max-width: 90%;
+    padding-right: 10%;
+    padding-left: 10%;
     margin: 0 auto; 
     padding: 20px;
     background: #fff;
