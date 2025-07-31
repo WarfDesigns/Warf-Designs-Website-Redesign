@@ -8,7 +8,11 @@ A Code: You capstone project utilizing 3rd party API's while also highlighting H
 
 Project Overview:
 
-This is a redesign of my current WordPress website. Always preferred a custom built site with my own code; just never got around to actually having the time to do so. This website will show display all my services, have forms for customers to sign contract agreements, forms for appointment schedules, email notifications or sms messages to my phone to notify me, and more. It will also feature a app-like menu at the bottom of the screen for mobile devices, and use javascript to use html templates for the headers, footers, and app-menu to be located on every page of the website.
+This is a redesign of my current WordPress website. I have always preferred a custom built site with my own code; just never got around to actually having the time to do so. This website will display all my services, have forms for customers to calculate pricing and to contact me. Using Captcha API to keep the contact form secure. It will also feature a app-like menu at the bottom of the screen for mobile devices, and use javascript to use html templates for the headers, footers, and app-menu to be located on every page of the website.
+
+Future Changes Desired:
+
+Eventually it will have forms for customers to sign contract agreements, forms for appointment schedules, email notifications or sms messages to my phone to notify me, and more. I may integrate stripe eventually and create my own CMS that will do similar actions that WHCMS has. 
 
 
 
@@ -18,7 +22,6 @@ This is a redesign of my current WordPress website. Always preferred a custom bu
 |------|-------------|
 | **Home** | The landing page provides users with some information about Warf Designs, and what I do for a living. It will also list the products on the page. |
 | **Contact Us** | Will have a form where customers can contact me by email. It will also have a google captcha for verification that the person is not a robot filling in the form. |
-| **Domain Search** | This page will have a custom domain search. Give customers the ability to search for a domain that they want to use. |
 | **About Us** | This page will have information about Warf Designs, and how I got started. |
 | **Digitizing Services** | This page will have information about my digitizing services and pricing. It will also include a calculator for estimating pricing for customers along with bulk pricing. |
 | **Website Design** | This page will showcase our website design services, and websites I've built. It will also detail the pricing and allow customers to pay through stripe for this service. It will require users to sign the contract agreement before proceeding to pay on stripes website. |
@@ -41,8 +44,9 @@ This is a redesign of my current WordPress website. Always preferred a custom bu
 
 | Requirement | Implementation |
 |-------------|----------------|
-| **Retrieve data from a third-party API** | • Integrated NameSilo API for Domain Search<br>• Implemented captcha API for form.<br>• Implemented The Maps Embed API for the website. |
+| **Retrieve data from a third-party API** | • Implemented captcha API for form.<br>|
 | **Use a regular expression to validate user input and either prevent the invalid input or inform the user about it (in all cases prevent invalid input from being stored or saved).** | • Created a form that does not allow submission without the correct characters. |
+|**Create a function that accepts two or more input parameters and returns a value that is calculated or determined by the inputs.  Basic math functions don’t count (e.g. addition, etc).**|  • Created a form that calculates the pricing of digitizing VHS tapes and reels based on the amount that a customer enters. Also after reaching 100 tapes or 100 reels, a discount of 10% off is included with VHS Tapes and a $5 off per reel discount is included.|
 | **Responsive Design** | • Implemented responsive layouts using a mix of Flexbox and Grid.<br>• Created media queries for different screen sizes<br>• Built with mobile-first approach |
 
 
@@ -51,31 +55,31 @@ This is a redesign of my current WordPress website. Always preferred a custom bu
 <h1>Project Outline: Responsive Website Re-design of warfdesigns.com</h1>
 
 <h2>I. Introduction</h2>
-Objective: Develop a responsive website re-design of warfdesigns.com. Provide a seamless shopping experience for customers.
+Objective: Develop a responsive website re-design of warfdesigns.com. Provide a seamless experience for customers.
 Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PHP, YouTube, API Configurations
 
 <h2>Goals:</h2>
-<p>  Implement responsive design.</p>
-<p>  Integrate various web development features.</p>
-<p>  Utilize third-party APIs for data retrieval.</p>
-<p>  Ensure a visually appealing and user-friendly application.</p>
+<p> Implement responsive design.</p>
+<p> Integrate various web development features.</p>
+<p> Utilize third-party APIs for data retrieval.</p>
+<p> Use iframe to add my business from google maps.</p>
+<p> Ensure a visually appealing and user-friendly application.</p>
 
 <h2>II. Responsive Design</h2>
  1. Implementation
-    <p>  - Media Queries: Implement media queries to adapt the layout for mobile and desktop screen sizes.</p>
-    <p>  - CSS Grid and Flexbox: Use CSS Grid and Flexbox to create flexible and responsive layouts.</p>
-    <p>  - Responsive Components: Ensure all components (forms, tables) adjust appropriately across different devices.</p>
+    <p> - Media Queries: Implement media queries to adapt the layout for mobile, tablet, and desktop screen sizes.</p>
+    <p> - CSS Grid and Flexbox: Use CSS Grid and Flexbox to create flexible and responsive layouts.</p>
+    <p> - Responsive Components: Ensure all components (forms, tables) adjust appropriately across different devices.</p>
 
 <h2>III. Feature Implementation</h2>
  1. Selected Features
  <br></br>
     <p>  - <b>Feature 1:</b> Use a regular expression to validate user input and either prevent the invalid input or inform the user about it (in all cases prevent invalid input from being stored or saved).</p>
-    <p>  - <b>Feature 2:</b> Responsive Design</p>
-    <p>  - <b>Feature 3:</b> Retrieve data from a third-party API and display it.</p>
+    <p>  - <b>Feature 2:</b> Implement modern interactive UI features (e.g. table/data sorting, autocomplete, drag-and-drop, calendar-date-picker, etc).</p>
+    <p>  - <b>Feature 3:</b> Create a function that accepts two or more input parameters and returns a value that is calculated or determined by the inputs.  Basic math functions don’t count (e.g. addition, etc).</p>
 
 <h2>IV Integration of Third-Party API</h2>
-<p> 1. Namesilo API: Integrate namesilo API to fetch and display current domains available for purchase.</p>
-<p> 2. Captcha API: Added for the form.</p>
+<p> 1. Captcha API: Added for the form.</p>
 
 
 
@@ -113,27 +117,12 @@ Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PH
 <p>  - Ensure the project is fully functional and well-documented.</p>
 <p>  - Prepare the project for final presentation or submission to evaluators.</p>
 
-This outline provides a structured approach to developing a responsive web application focused on redesigning my website using a react framework. It includes steps for responsive design, feature implementation, data handling, advanced features, project development, review, and documentation to ensure the project meets all requirements and is attractive to potential employers or evaluators.
+This outline provides a structured approach to developing a responsive web application focused on redesigning my website using HTML, CSS, and Javascript. It includes steps for responsive design, feature implementation, data handling, advanced features, project development, review, and documentation to ensure the project meets all requirements and is attractive to potential employers or evaluators.
 
 <h1>Set it Up</h1>
 1. Set up: Before installing the application, you'll need to obtain these API keys:
 
-    A. NameSilo API: For NameSilo domain lookups; sign up at https://www.namesilo.com/login for an account.
-    Generate a read-only access API key @ https://www.namesilo.com/account/api-manager
-
-    B. The Maps Embed API (Google Cloud): 
-      1. Go to the Google Cloud Console: https://console.cloud.google.com/
-      2. Create a new project or select an existing one
-      3. Enable the The Maps Embed API:
-         - In the navigation menu, click "APIs & Services" > "Library"
-         - Search for "The Maps Embed API"
-         - Click "Enable"
-      4. Create credentials:
-         - Go to "APIs & Services" > Search for "The Maps Embed API"
-         - Click "Keys"
-         - You will use this API key when you create a `.env` file
-
-    C. reCAPTCHA (Google Cloud): 
+    A. reCAPTCHA (Google Cloud): 
       1. Go to the Google Cloud Console: https://console.cloud.google.com/
       2. Create a new project or select an existing one
       3. Navigate to https://console.cloud.google.com/security/recaptcha.
