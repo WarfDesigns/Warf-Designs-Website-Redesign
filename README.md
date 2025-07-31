@@ -12,7 +12,8 @@ This is a redesign of my current WordPress website. I have always preferred a cu
 
 Future Changes Desired:
 
-Eventually it will have forms for customers to sign contract agreements, forms for appointment schedules, email notifications or sms messages to my phone to notify me, and more. I may integrate stripe eventually and create my own CMS that will do similar actions that WHCMS has. 
+Eventually it will have forms for customers to sign contract agreements, forms for appointment schedules, email notifications or sms messages to my phone to notify me, and more. I may integrate stripe eventually and create my own CMS that will do similar actions that WHCMS has. Replace the reviews section with my own so I can stop paying them yearly. Create my own Forms Application, so I can stop paying Formidable Forms yearly.
+  
 
 
 
