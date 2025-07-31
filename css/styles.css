@@ -1,26 +1,83 @@
-/* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
-    .appmenucontainer {
-        display: none;
-    }
-}
-
- /* Large devices (desktops, 992px and up) */
-@media (max-width: 992px) {  }
-
-
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
+@media (min-width: 0px) {
     #nav {
     display: none;
 }
 .BigLogo {
-    max-width: 90%;
+    max-width: 95%;
     height: auto;
     display: block;
     margin: 0 auto;
-    padding-bottom: 20%;
-    padding-top: 20%;
+    padding-bottom: 50%;
+    padding-top: 50%;
+}
+.logo {
+    text-align: center;
+    max-height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+body {
+    background-color: rgb(241, 241, 241);
+    color: white;
+    font-family: "Open Sans", serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto; 
+    padding: 20px;
+    background: #fff;
+    color:black;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.four-container {
+    max-width: 90%;
+    padding: 5%;
+    background: #fff;
+    color:black;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+.four-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 5%;
+    gap: 20px;
+    color:black;
+    border-radius: 3px; 
+}
+
+.center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+}
+#result {
+    color: black;
+}
+.epicbtn {
+    color: white;
+    background-color: black;
+    padding: 0.5%;
+    font-size: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;   
+}
+
+.epicbtn:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px);
+    border-radius: 6px;
 }
   /* Menu links */
 .appMenu a {
@@ -37,13 +94,16 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #000;
+    color:white;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     z-index: 99999 !important; /* <- raise z-index and force priority */
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
   /* Main nav */
@@ -52,56 +112,70 @@
     padding: 10px;
     margin: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-right: #fff solid 1px;
+    border-left:  #fff solid 1px;
 }
+
+  /* Header */
+.menu-header {
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    padding: 0;
+}
+
 footer {
     background: black;
     color: white;
     height: auto;
     width: 100%;
-    padding-top: 5%;
-    padding-bottom:5%;
+    padding-top: 25%;
+    padding-bottom:25%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center; 
 }
 
 h1 {
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center; 
 }
 
 h2 {
     color: black;
-    font-size: 30px;
+    font-size: 23px;
     text-align: center;
 }
 
 h3 {
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
 h4 {
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
 }
-
+.videos {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 20px;
+}
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .appmenucontainer {
         display: none;
-    }
 }
-
-
   /* Header */
 .menu-header {
     font-weight: bold;
@@ -466,4 +540,6 @@ div[id*="ti-widget"],
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     gap: 20px;
-}
+}}
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
