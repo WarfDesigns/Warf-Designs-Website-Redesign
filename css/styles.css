@@ -69,13 +69,13 @@ body {
 .epicbtn {
     color: white;
     background-color: black;
-    padding: 0.5%;
+    padding: 4%;
     padding-left: 5%;
     padding-right: 5%;
     font-size: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     border-radius: 6px;
-    width: 80%;
+    width: 100%;
     text-align:center;   
 }
 
@@ -84,6 +84,16 @@ body {
     transform: translateY(-2px);
     border-radius: 6px;
 }
+
+#epic-service-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    gap: 10px;
+}
+
   /* Menu links */
 .appMenu a {
     text-decoration: none;
@@ -383,8 +393,7 @@ label {
 }
 
 .menu {
-    display: grid;
-    grid-template-columns:  1fr 1fr 1fr;
+    display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;  
