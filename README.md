@@ -83,7 +83,7 @@ Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PH
 
 <h2>V. Advanced Features</h2>
  <p>  1. Interactive UI Features</p>
- <br></br>
+ <br>
     <p>    - Implement features like data sorting, autocomplete for location input, and interactive date-picker for date selection.</p>
 <h2>VI. Review Process</h2>
 
@@ -93,14 +93,14 @@ Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PH
 <p>  - Validate the responsiveness and functionality of all components.</p>
 
 <p>    2. External Feedback</p>
-<br></br>
+<br>
 <p>  - Present the project to peers or mentors for feedback.</p>
 <p>  - Incorporate feedback to refine and polish the application.</p>
 
 <h2>VII. Documentation and Final Submission</h2>
 
 <p>    1. Code Annotation and Documentation</p>
-<br></br>
+<br>
 <p>- Annotate code with clear comments and explanations.</p>
 
 <p>Write a comprehensive README.md file covering:</p>
@@ -112,7 +112,7 @@ Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PH
 </ul>
 
 <p>    2. Final Submission</p>
-<br></br>
+<br>
 <p>  - Ensure the project is fully functional and well-documented.</p>
 <p>  - Prepare the project for final presentation or submission to evaluators.</p>
 
