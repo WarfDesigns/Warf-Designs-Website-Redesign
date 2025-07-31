@@ -896,6 +896,13 @@ p {
     border: #FFF solid 7px;
 }
 
+.product-display {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: center;
+    gap: 20px;
+}
+
 #ReelCalculator,
 #VHSCalculator {
     color: white;
