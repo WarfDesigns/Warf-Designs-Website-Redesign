@@ -45,49 +45,8 @@ document.addEventListener("DOMContentLoaded", () => {
   loadTemplate('/templates/error.html', 'error');
   loadTemplate('/templates/product-display.html', 'productDisplay');
   loadTemplate('/templates/appointment-form.html', 'appointmentForm');
-  loadTemplate('/templates/website-questionnaire.html', 'websiteQuestionnaire');
   loadTemplate('/templates/contact.html', 'contact');
   loadTemplate('/templates/header.html', 'header')
-});
-
-
-document.getElementById("Form").addEventListener("submit", function (e) {
-  e.preventDefault(); // prevent form from submitting by default
-
-  const nameInput = document.getElementById("Name");
-  const phoneInput = document.getElementById("Phone");
-  const nameError = document.getElementById("NameError");
-  const phoneError = document.getElementById("PhoneError");
-  // Name pattern: letters and spaces only
-  // Example: John Doe or Jane Smith
-  const namePattern = /^[A-Za-z\s]+$/;
-  // Phone number pattern: 10 digits, no spaces or special characters
-  // Example: 1234567890 or 1234567890
-  const phonePattern = /^\d{3}\d{3}\d{4}$/;
-
-  let valid = true;
-
-  // Validate the name of the customer.
-  if (!namePattern.test(nameInput.value.trim())) {
-    nameError.style.display = "block";
-    valid = false;
-  } else {
-    nameError.style.display = "none";
-  }
-
-  // Validate phone of the customer.
-  if (!phonePattern.test(phoneInput.value.trim())) {
-    phoneError.style.display = "block";
-    valid = false;
-  } else {
-    phoneError.style.display = "none";
-  }
-
-  // If all inputs are valid, this will allow the form to submit
-  if (valid) {
-    //Re-directs customers to the thank you page.
-    window.location.href = "/pages/Thank-You.html";
-  }
 });
 
 //This function loads more videos when the button is clicked
@@ -117,3 +76,38 @@ const videos = "Q-8yeKt1ULU,fKqzXpnBDZc,aTNzEcOokZc,D0t36FouM7M,GzP5RCDAgrI,z7X6
 
   btn.addEventListener("click", loadVideos);
   loadVideos();
+
+        async function loadRepos() {
+            const endpoint = "https://api.github.com/users/warfdesigns/repos";
+            const container = document.getElementById("projects-container");
+
+            try {
+                const response = await fetch(endpoint);
+                const repos = await response.json();
+
+                if (!Array.isArray(repos)) {
+                    container.innerHTML = "<p>Sorry! We can't find the projects! Please try again later. :-)</p>";
+                    return;
+                }
+
+                container.innerHTML = "";
+
+                repos
+                    .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at)) 
+                    .forEach(repo => {
+                        const card = document.createElement("div");
+                        card.className = "repo-card";
+                        card.innerHTML = `
+                            <h3><a href="${repo.html_url}" target="_blank" rel="noopener noreferrer">${repo.name}</a></h3>
+                            <p>${repo.description || "No description provided."}</p>
+                            <p class="repo-meta">🍴 ${repo.forks_count}</p>
+                        `;
+                        container.appendChild(card);
+                    });
+            } catch (error) {
+                console.error("Error loading repositories:", error);
+                container.innerHTML = "<p>Error loading projects.</p>";
+            }
+        }
+
+        loadRepos();
