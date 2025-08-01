@@ -48,6 +48,15 @@ body {
     border-radius: 3px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
+.one-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 5%;
+    gap: 20px;
+    color:black;
+    border-radius: 3px; 
+}
 .four-column {
     display: grid;
     grid-template-columns: 1fr;
@@ -68,32 +77,72 @@ body {
 #result {
     color: black;
 }
-.epicbtn {
+
+.epic-service-buttons i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    color: #000;
+}
+.epicbtn2 {
     color: white;
     background-color: black;
-    padding: 4%;
+    padding: 0.5%;
     padding-left: 5%;
     padding-right: 5%;
     font-size: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     border-radius: 6px;
-    width: 100%;
-    text-align:center;   
+    width: 100%; 
+    cursor: pointer;
+}
+
+.epicbtn2:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.epicbtn {
+    color: white;
+    background-color: black;
+    padding: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    width: 70%; 
+    cursor: pointer;
 }
 
 .epicbtn:hover {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
     transform: translateY(-2px);
     border-radius: 6px;
+    cursor: pointer;
 }
 
-#epic-service-buttons {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
+
+.epic-service-buttons {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 0%;
-    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+}
+
+.epic-service-buttons a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
 }
 
   /* Menu links */
@@ -259,7 +308,15 @@ body {
     border-radius: 3px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
-
+.one-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 5%;
+    gap: 20px;
+    color:black;
+    border-radius: 3px; 
+}
 .four-container {
     max-width: 90%;
     padding: 5%;
@@ -279,6 +336,53 @@ body {
 #result {
     color: black;
 }
+
+.epic-service-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+}
+
+.epic-service-buttons i {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.epic-service-buttons a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.epicbtn2 {
+    color: white;
+    background-color: black;
+    padding: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    width: 100%; 
+    cursor: pointer;
+}
+
+.epicbtn2:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px);
+    border-radius: 6px;
+    cursor: pointer;
+}
 .epicbtn {
     color: white;
     background-color: black;
@@ -289,12 +393,14 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     border-radius: 6px;
     width: 30%; 
+    cursor: pointer;
 }
 
 .epicbtn:hover {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
     transform: translateY(-2px);
     border-radius: 6px;
+    cursor: pointer;
 }
 
 footer {
@@ -608,6 +714,32 @@ div[id*="ti-widget"],
     font-size: 14px;
 }
 
+.epic-service-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+}
+
+.epic-service-buttons a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.epic-service-buttons i {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    color: #000;
+    
+}
 
 .submenu {
     margin-top: 5px;
@@ -656,6 +788,15 @@ footer a {
     border-radius: 3px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
+.one-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 5%;
+    gap: 20px;
+    color:black;
+    border-radius: 3px; 
+}
 
 .four-container {
     max-width: 90%;
@@ -676,22 +817,44 @@ footer a {
 #result {
     color: black;
 }
+
+.epicbtn2 {
+    color: white;
+    background-color: black;
+    padding: 2.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    width: 100%; 
+    cursor: pointer;
+}
+
+.epicbtn2:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px);
+    border-radius: 6px;
+    cursor: pointer;
+}
 .epicbtn {
     color: white;
     background-color: black;
-    padding: 0.5%;
+    padding: 0.7%;
     padding-left: 5%;
     padding-right: 5%;
     font-size: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     border-radius: 6px;
     width: 30%; 
+    cursor: pointer;
 }
 
 .epicbtn:hover {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
     transform: translateY(-2px);
     border-radius: 6px;
+    cursor: pointer;
 }
 
 footer {
