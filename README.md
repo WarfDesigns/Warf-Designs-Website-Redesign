@@ -137,8 +137,8 @@ This outline provides a structured approach to developing a responsive web appli
          - Make the application type choose "Web".
          - Under the domain list type "localhost".
          - Then click on "Create Key".
-         - You will use this API key when you create a `.env` file
-   B. Domain Search (Domainr):
+         - You will use this API key when you create a `.env` file.
+    B. Domain Search (Domainr):
       1. Obtain Domainr API. 
          - Go to https://domainr.com/.
          - Click try for free at the top of the screen. 
