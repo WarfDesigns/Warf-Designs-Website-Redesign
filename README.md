@@ -26,7 +26,7 @@ Eventually it will have forms for customers to sign contract agreements, forms f
 | **About Us** | This page will have information about Warf Designs, and how I got started. |
 | **Digitizing Services** | This page will have information about my digitizing services and pricing. It will also include a calculator for estimating pricing for customers along with bulk pricing. |
 | **Website Design** | This page will showcase our website design services, and websites I've built. It will also detail the pricing and allow customers to pay through stripe for this service. It will require users to sign the contract agreement before proceeding to pay on stripes website. |
-| **Website Hosting** | This page will will discuss briefly what I offer in hosting and there will be a link directing customers to another site I use for managing customers' hosting. |
+| **Website Hosting** | This page will will discuss briefly what I offer in hosting and there will be a link directing customers to another site I use for managing customers' hosting. It will also have a location on there that will allow customers to search if their domain is available or not. |
 | **WordPress Plugins** | This page will list plugins that I have built. |
 | **Videography** | This page will show some work done by Warf Designs, as well as how much it costs for work done by Warf Designs. |
 | **Computer Repair and Assistance** | This page will talk about pricing for various computer repair and assistance in person.  |
@@ -45,7 +45,7 @@ Eventually it will have forms for customers to sign contract agreements, forms f
 
 | Requirement | Implementation |
 |-------------|----------------|
-| **Retrieve data from a third-party API** | • Implemented captcha API for form.<br>|
+| **Retrieve data from a third-party API** | • Implemented captcha API for form.<br>• API is used with domainr.com in order to retrieve live domain searches.<br>• API is used with Github to pull projects in and display them on the github portfolio page.|
 | **Use a regular expression to validate user input and either prevent the invalid input or inform the user about it (in all cases prevent invalid input from being stored or saved).** | • Created a form that does not allow submission without the correct characters. |
 |**Create a function that accepts two or more input parameters and returns a value that is calculated or determined by the inputs.  Basic math functions don’t count (e.g. addition, etc).**|  • Created a form that calculates the pricing of digitizing VHS tapes and reels based on the amount that a customer enters. Also after reaching 100 tapes or 100 reels, a discount of 10% off is included with VHS Tapes and a $5 off per reel discount is included.|
 | **Responsive Design** | • Implemented responsive layouts using a mix of Flexbox and Grid.<br>• Created media queries for different screen sizes.<br>• Built with mobile-first approach. |
@@ -126,18 +126,30 @@ This outline provides a structured approach to developing a responsive web appli
       1. Go to the Google Cloud Console: https://console.cloud.google.com/
       2. Create a new project or select an existing one
       3. Navigate to https://console.cloud.google.com/security/recaptcha.
-      3. Enable the reCAPTCHA API:
+      4. Enable the reCAPTCHA API:
          - In the navigation menu, click "APIs & Services" > "Library"
          - Search for "reCAPTCHA"
          - Click "Enable"
          - If already enabled or can't locate it continue to https://console.cloud.google.com/security/recaptcha.
-      4. Create credentials:
+      5. Create credentials:
          - Go to https://console.cloud.google.com/security/recaptcha
          - Click "Create Keys"
          - Make the application type choose "Web".
          - Under the domain list type "localhost".
          - Then click on "Create Key".
          - You will use this API key when you create a `.env` file
+   B. Domain Search (Domainr):
+      1. Obtain Domainr API. 
+         - Go to https://domainr.com/.
+         - Click try for free at the top of the screen. 
+         - Choose start Free Plan.
+         - Fill out all information including the card. It might charge you a $0.50 fee but it should be removed from your account after a couple days. They just want to test your account is safe to charge. 
+         - Afterwards, if you don't already see your API, click on the search.
+         - Type Domainr.
+         - Click on domainr. 
+         - You should see: X-RapidAPI-Key (THIS IS YOUR API)
+      2. Copy the API Key and enter it on the script.js file under "X-RapidAPI-Key": "YOUR_API_KEY_HERE".
+         - Then you should be able to perform a search for it to do a domain search. 
 
 
 

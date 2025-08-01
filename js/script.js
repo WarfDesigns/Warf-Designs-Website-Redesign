@@ -108,3 +108,38 @@ async function loadRepos() {
       }
 
         loadRepos();
+
+//This function allows users to submit a domain search request. 
+function checkDomain() {
+      const domain = document.getElementById("domainSearch").value.trim();
+      const resultBox = document.getElementById("result");
+
+      if (!domain) {
+        resultBox.textContent = "Please enter a domain name.";
+        return;
+      }
+
+      fetch(`https://domainr.p.rapidapi.com/v2/status?domain=${domain}`, {
+        method: "GET",
+        headers: {
+          "X-RapidAPI-Key": "YOUR_API_KEY_HERE",
+          "X-RapidAPI-Host": "domainr.p.rapidapi.com"
+        }
+      })
+      .then(res => res.json())
+      .then(data => {
+        const status = data.status && data.status[0].status;
+        if (status.includes("inactive") || status.includes("undelegated")) {
+          resultBox.textContent = `😎 ${domain} is available!`;
+          resultBox.style.color = "green";
+        } else {
+          resultBox.textContent = `😭 ${domain} is already taken.`;
+          resultBox.style.color = "red";
+        }
+      })
+      .catch(err => {
+        console.error(err);
+        resultBox.textContent = "Error checking domain. Try again.";
+        resultBox.style.color = "orange";
+      });
+    }
