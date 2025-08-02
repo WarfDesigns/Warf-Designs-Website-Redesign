@@ -127,8 +127,8 @@ This outline provides a structured approach to developing a responsive web appli
    ```
 
 2. Before previewing the website, you'll need to obtain these API keys and paste them to the script.js file:
-
-    A. reCAPTCHA (Google Cloud): 
+```
+   A. reCAPTCHA (Google Cloud): 
       1. Go to the Google Cloud Console: https://console.cloud.google.com/
       2. Create a new project or select an existing one
       3. Navigate to https://console.cloud.google.com/security/recaptcha.
@@ -144,7 +144,7 @@ This outline provides a structured approach to developing a responsive web appli
          - Under the domain list type "localhost".
          - Then click on "Create Key".
          - You will use this API key when you create a `.env` file.
-    B. Domain Search (Domainr):
+   B. Domain Search (Domainr):
       1. Obtain Domainr API. 
          - Go to https://domainr.com/.
          - Click try for free at the top of the screen. 
@@ -155,4 +155,5 @@ This outline provides a structured approach to developing a responsive web appli
          - Click on domainr. 
          - You should see: X-RapidAPI-Key (THIS IS YOUR API)
       2. Copy the API Key and enter it on the script.js file under "X-RapidAPI-Key": "YOUR_API_KEY_HERE".
-         - Then you should be able to perform a search for it to do a domain search. 
+         - Then you should be able to perform a search for it to do a domain search.
+```
