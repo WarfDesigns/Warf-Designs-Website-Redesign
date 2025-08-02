@@ -45,7 +45,8 @@ document.addEventListener("DOMContentLoaded", () => {
   loadTemplate('/templates/product-display.html', 'productDisplay');
   loadTemplate('/templates/appointment-form.html', 'appointmentForm');
   loadTemplate('/templates/contact.html', 'contact');
-  loadTemplate('/templates/header.html', 'header')
+  loadTemplate('/templates/header.html', 'header');
+  loadTemplate('/templates/services.html', 'services')
 });
 
 //This function loads more videos when the button is clicked
