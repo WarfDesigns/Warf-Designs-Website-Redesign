@@ -802,6 +802,12 @@ footer a {
     border-radius: 3px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
+
+.column-one-two {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
 .one-column {
     display: grid;
     grid-template-columns: 1fr;
