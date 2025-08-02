@@ -807,7 +807,11 @@ footer a {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
-
+.column-one-three {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
 .one-column {
     display: grid;
     grid-template-columns: 1fr;
