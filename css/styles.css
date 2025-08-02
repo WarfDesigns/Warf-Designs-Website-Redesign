@@ -17,6 +17,11 @@
     display: block;
     margin: 0 auto;
 }
+
+.list-no-dots {
+    list-style-type: none;
+}
+
 body {
     background-color: rgb(241, 241, 241);
     color: white;
@@ -401,6 +406,10 @@ body {
     transform: translateY(-2px);
     border-radius: 6px;
     cursor: pointer;
+}
+
+.list-no-dots {
+    list-style-type: none;
 }
 
 footer {
@@ -955,6 +964,13 @@ label {
     display: block;
     margin: 0 auto;
 }
+
+.list-no-dots {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
 .menucontainer {
     position: sticky;
     top: 0;
