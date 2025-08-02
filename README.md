@@ -120,7 +120,13 @@ Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PH
 This outline provides a structured approach to developing a responsive web application focused on redesigning my website using HTML, CSS, and Javascript. It includes steps for responsive design, feature implementation, data handling, advanced features, project development, review, and documentation to ensure the project meets all requirements and is attractive to potential employers or evaluators.
 
 <h1>Set it Up</h1>
-1. Set up: Before installing the application, you'll need to obtain these API keys:
+
+1. **Clone the repository using GIT**
+   ```bash
+   git clone https://github.com/WarfDesigns/Warf-Designs-Website-Redesign.git
+   ```
+
+2. Before previewing the website, you'll need to obtain these API keys and paste them to the script.js file:
 
     A. reCAPTCHA (Google Cloud): 
       1. Go to the Google Cloud Console: https://console.cloud.google.com/
@@ -150,11 +156,3 @@ This outline provides a structured approach to developing a responsive web appli
          - You should see: X-RapidAPI-Key (THIS IS YOUR API)
       2. Copy the API Key and enter it on the script.js file under "X-RapidAPI-Key": "YOUR_API_KEY_HERE".
          - Then you should be able to perform a search for it to do a domain search. 
-
-
-
-
-2. **Clone the repository using GIT**
-   ```bash
-   git clone https://github.com/WarfDesigns/Warf-Designs-Website-Redesign.git
-   ```

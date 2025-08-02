@@ -1,4 +1,3 @@
-
 // This function loads a specific page content into the 'content' element
 function loadPage(page) {
   const content = document.getElementById('content');
@@ -76,6 +75,8 @@ const videos = "Q-8yeKt1ULU,fKqzXpnBDZc,aTNzEcOokZc,D0t36FouM7M,GzP5RCDAgrI,z7X6
 
   btn.addEventListener("click", loadVideos);
   loadVideos();
+
+//This Loads Github Projects to the portfolio page.//
 
 async function loadRepos() {
   const endpoint = "https://api.github.com/users/warfdesigns/repos";
