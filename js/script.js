@@ -1,4 +1,4 @@
-// This function loads a specific page content into the 'content' element
+// This function loads a specific page content into the 'content' element "THIS IS NOT USED YET OR FULLY CONFIGURED"// 
 function loadPage(page) {
   const content = document.getElementById('content');
   if (!content) return;
