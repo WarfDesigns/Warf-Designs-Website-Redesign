@@ -30,7 +30,6 @@ Eventually it will have forms for customers to sign contract agreements, forms f
 | **WordPress Plugins** | This page will list plugins that I have built. |
 | **Videography** | This page will provide estimates for how much it costs for recording and editing work done by Warf Designs. |
 | **Computer Repair and Assistance** | This page will talk about pricing for various computer repair and assistance in person.  |
-| **** | This page will have my resume. |
 | **Portfolio** | This page will show wordpress website projects, github projects, and video editing projects that we've worked on in the past. |
 | **Accessibility Policy** | This page will discuss the Accessibility Policy. |
 | **Privacy Policy** | This page will discuss the Privacy Policy.|
