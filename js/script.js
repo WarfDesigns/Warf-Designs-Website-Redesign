@@ -50,32 +50,41 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //This function loads more videos when the button is clicked
-const videos = "Q-8yeKt1ULU,fKqzXpnBDZc,aTNzEcOokZc,D0t36FouM7M,GzP5RCDAgrI,z7X6Gq2ZC1k,A1Ut3-ANOvY,P4ABCX63pFQ".split(",");
-  let loaded = 0;
+document.addEventListener("DOMContentLoaded", () => {
+  const videos = "Q-8yeKt1ULU,fKqzXpnBDZc,aTNzEcOokZc,D0t36FouM7M,GzP5RCDAgrI,z7X6Gq2ZC1k,A1Ut3-ANOvY,P4ABCX63pFQ".split(",");
+  let loaded = 4; // Already 4 shown in HTML
   const step = 4;
-  const section = document.getElementById("load-more-videos");
-  const btn = document.getElementById("load-more-videos");
+  const container = document.querySelector(".videos");
+  const btn = document.getElementById("load-more-btn");
+
+  if (!container || !btn) {
+    console.warn("Container or button not found.");
+    return;
+  }
 
   function loadVideos() {
     const next = videos.slice(loaded, loaded + step);
-    next.forEach((id, i) => {
+    next.forEach(id => {
       const iframe = document.createElement("iframe");
-      iframe.src = `https://www.youtube.com/embed/${id}?mute=1&loop=1&playlist=${id}` + (loaded === 0 && i === 0 ? "&autoplay=1" : "");
+      iframe.src = `https://www.youtube.com/embed/${id}?mute=1&loop=1&playlist=${id}`;
       iframe.width = "100%";
       iframe.height = "100%";
       iframe.loading = "lazy";
-      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-      iframe.allowFullscreen = true;
-      iframe.frameBorder = 0;
+      iframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share");
+      iframe.setAttribute("allowfullscreen", "");
+      iframe.setAttribute("frameborder", "0");
       iframe.style.marginBottom = "30px";
       container.appendChild(iframe);
     });
+
     loaded += step;
-    if (loaded >= videos.length) btn.style.display = "none";
+    if (loaded >= videos.length) {
+      btn.style.display = "none";
+    }
   }
 
   btn.addEventListener("click", loadVideos);
-  loadVideos();
+});
 
 //This Loads Github Projects to the portfolio page.//
 
