@@ -121,12 +121,24 @@ This outline provides a structured approach to developing a responsive web appli
 
 <h1>Set it Up</h1>
 
-1. **Clone the repository using GIT**
+1. Download VS-Code at https://code.visualstudio.com/download.
+   - Install VS-Code using the prompts.
+
+2. Install Git: https://git-scm.com/downloads
+   - Click on download for windows if you have a windows pc.
+   - Click on download for mac if you have a mac.
+   - Click on download for linux if you have a linux pc.
+   - Install Git using prompts.
+
+3. Find and download live server in VScode extensions.
+   - After it installs you will be able to clone the project and preview it locally on your pc.
+
+4. **Clone the repository using GIT**
    ```bash
    git clone https://github.com/WarfDesigns/Warf-Designs-Website-Redesign.git
    ```
 
-2. Before previewing the website, you'll need to obtain these API keys and paste them to the script.js file:
+5. Before previewing the website, you'll need to obtain these API keys and paste them to the script.js file:
 ```
    A. reCAPTCHA (Google Cloud): 
       1. Go to the Google Cloud Console: https://console.cloud.google.com/
