@@ -34,7 +34,7 @@ Eventually it will have forms for customers to sign contract agreements, forms f
 | **Accessibility Policy** | This page will discuss the Accessibility Policy. |
 | **Privacy Policy** | This page will discuss the Privacy Policy.|
 
-<em>There are a total of 39 pages, however, not all of them are complete with content. Please refer to the sitemap page to see more after you launch the site. </em>
+<em>There are a total of 39 pages, however, not all of them are complete with content. Please refer to the sitemap page to see more after you launch the site. I plan to continue adding more to this project after the completion date. So there may be even more incomplete files.</em>
 
 
 <h1>Capstone Requirements Fulfilled</h1>
