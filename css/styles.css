@@ -1131,6 +1131,16 @@ p {
     box-shadow: 0 3px 4px rgba(0,0,0,1);  
     filter: invert(1);
 }
+.repo-card:hover .repo-image {
+    filter: invert(1);
+}
+
+.repo-image {
+    filter: invert(0);
+    width: 100%; 
+    height: auto;
+}
+
 .repo-card h3 {
     margin: 0;
     font-size: 1.2rem;
