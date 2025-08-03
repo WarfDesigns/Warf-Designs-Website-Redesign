@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //This function loads more videos when the button is clicked
 document.addEventListener("DOMContentLoaded", () => {
-  const videos = "Q-8yeKt1ULU,fKqzXpnBDZc,aTNzEcOokZc,D0t36FouM7M,GzP5RCDAgrI,z7X6Gq2ZC1k,A1Ut3-ANOvY,P4ABCX63pFQ".split(",");
+  const videos = "Q-8yeKt1ULU,fKqzXpnBDZc,aTNzEcOokZc,D0t36FouM7M,GzP5RCDAgrI,z7X6Gq2ZC1k,A1Ut3-ANOvY,P4ABCX63pFQ,UtZMN91uZqY,AClbAEqzcJw,X4XVB5LJnVY,D0t36FouM7M&t,P2tMpsPRCqs&t,xeAMKHm-5J8,zZK9xNDca84,PCUwOeRHWlk&t ".split(",");
   let loaded = 4; // Already 4 shown in HTML
   const step = 4;
   const container = document.querySelector(".videos");
