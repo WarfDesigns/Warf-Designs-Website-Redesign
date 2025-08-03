@@ -83,6 +83,59 @@ body {
     color: black;
 }
 
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.repo-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0px 4px rgba(0,0,0,1);
+    transition: transform 0.2s;
+    position: relative;
+    z-index:1;
+    color: black;
+}
+.repo-card:hover {
+    transform: translateY(-5px);
+    z-index: 0;
+    box-shadow: 0 3px 4px rgba(0,0,0,1);  
+    filter: invert(1);
+}
+.repo-card:hover .repo-image {
+    filter: invert(1);
+}
+
+.repo-image {
+    filter: invert(0);
+    width: 100%; 
+    height: auto;
+}
+
+.repo-card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #000;
+}
+.repo-card a {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.repo-card p {
+    color: #000;
+    margin: 0.5rem 0;
+}
+.repo-meta {
+    font-size: 0.9rem;
+    color: #000;
+}
+
 .epic-service-buttons i {
     font-size: 3rem;
     margin-bottom: 10px;
@@ -637,6 +690,59 @@ p {
 #ReelTotal,
 #VHStotal {
     font-size: 20px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.repo-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0px 4px rgba(0,0,0,1);
+    transition: transform 0.2s;
+    position: relative;
+    z-index:1;
+    color: black;
+}
+.repo-card:hover {
+    transform: translateY(-5px);
+    z-index: 0;
+    box-shadow: 0 3px 4px rgba(0,0,0,1);  
+    filter: invert(1);
+}
+.repo-card:hover .repo-image {
+    filter: invert(1);
+}
+
+.repo-image {
+    filter: invert(0);
+    width: 100%; 
+    height: auto;
+}
+
+.repo-card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #000;
+}
+.repo-card a {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.repo-card p {
+    color: #000;
+    margin: 0.5rem 0;
+}
+.repo-meta {
+    font-size: 0.9rem;
+    color: #000;
 }
 
 .toggle-group label {
