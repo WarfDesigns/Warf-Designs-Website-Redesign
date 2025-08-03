@@ -21,23 +21,21 @@ Eventually it will have forms for customers to sign contract agreements, forms f
 
 | Page | Description |
 |------|-------------|
-| **Home** | The landing page provides users with some information about Warf Designs, and what I do for a living. It will also list the products on the page. |
-| **Contact Us** | Will have a form where customers can contact me by email. It will also have a google captcha for verification that the person is not a robot filling in the form. |
-| **About Us** | This page will have information about Warf Designs, and how I got started. |
+| **Home** | The landing page provides users with some information about Warf Designs, and what I do for a living. It will also list the services I offer on the page, provide a domain search, reviews of warf designs, and a contact us location for people to fill out or call me.  |
+| **Contact Us** | Will have a form where customers can contact me by email. It will also have a google captcha for verification that the person is not a robot filling in the form. It will also display a google map of my location. |
+| **About Us** | This page will have information about Warf Designs, and how I got started. It will also have three profiles listed there of people who help with the business.|
 | **Digitizing Services** | This page will have information about my digitizing services and pricing. It will also include a calculator for estimating pricing for customers along with bulk pricing. |
-| **Website Design** | This page will showcase our website design services, and websites I've built. It will also detail the pricing and allow customers to pay through stripe for this service. It will require users to sign the contract agreement before proceeding to pay on stripes website. |
-| **Website Hosting** | This page will will discuss briefly what I offer in hosting and there will be a link directing customers to another site I use for managing customers' hosting. It will also have a location on there that will allow customers to search if their domain is available or not. |
+| **Website Design** | This page shows the development and design process  for websites we build. It also answers a few frequently asked questions. |
+| **Website Hosting** | This page will will discuss briefly what I offer in hosting. |
 | **WordPress Plugins** | This page will list plugins that I have built. |
-| **Videography** | This page will show some work done by Warf Designs, as well as how much it costs for work done by Warf Designs. |
+| **Videography** | This page will provide estimates for how much it costs for recording and editing work done by Warf Designs. |
 | **Computer Repair and Assistance** | This page will talk about pricing for various computer repair and assistance in person.  |
-| **MSP Services** | This page will have information about our MSP services for local small businesses. |
-| **Graphic Design Services** | This page will have ads made in the past, logos, as well as other graphic design projects done. |
-| **Our Resume** | This page will have my resume. |
-| **Our Projects** | This page will show websites we've worked on in the past. |
-| **Golden Years Support** | This page will have information about our computers services available for the elderly. |
-| **Security Services** | This page will have information about our security services. Antivirus, VPN, 2FA, and Camera Security options we sell. |
+| **** | This page will have my resume. |
+| **Portfolio** | This page will show wordpress website projects, github projects, and video editing projects that we've worked on in the past. |
 | **Accessibility Policy** | This page will discuss the Accessibility Policy. |
 | **Privacy Policy** | This page will discuss the Privacy Policy.|
+
+<em>There are a total of 39 pages, however, not all of them are complete with content. Please refer to the sitemap page to see more after you launch the site. </em>
 
 
 <h1>Capstone Requirements Fulfilled</h1>
