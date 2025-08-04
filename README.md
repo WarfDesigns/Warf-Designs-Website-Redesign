@@ -21,18 +21,36 @@ Eventually it will have forms for customers to sign contract agreements, forms f
 
 | Page | Description |
 |------|-------------|
-| **Home** | The landing page provides users with some information about Warf Designs, and what I do for a living. It will also list the services I offer on the page, provide a domain search, reviews of warf designs, and a contact us location for people to fill out or call me.  |
-| **Contact Us** | Will have a form where customers can contact me by email. It will also have a google captcha for verification that the person is not a robot filling in the form. It will also display a google map of my location. |
 | **About Us** | This page will have information about Warf Designs, and how I got started. It will also have three profiles listed there of people who help with the business.|
-| **Digitizing Services** | This page will have information about my digitizing services and pricing. It will also include a calculator for estimating pricing for customers along with bulk pricing. |
-| **Website Design** | This page shows the development and design process  for websites we build. It also answers a few frequently asked questions. |
-| **Website Hosting** | This page will discuss briefly what I offer in hosting. |
-| **WordPress Plugins** | This page will list plugins that I have built. |
-| **Videography** | This page will provide estimates for how much it costs for recording and editing work done by Warf Designs. |
-| **Computer Repair and Assistance** | This page will talk about pricing for various computer repair and assistance in person.  |
-| **Portfolio** | This page will show wordpress website projects, github projects, and video editing projects that we've worked on in the past. |
+| **Antivirus Home Page** | This page will discuss briefly what antivirus we sell and recommend.
 | **Accessibility Policy** | This page will discuss the Accessibility Policy. |
+| **Business and Residential Data Backup and Cloning** | This page will disscuss our business and residential data backup and cloning program.
+| **Contact Us** | Will have a form where customers can contact me by email. It will also have a google captcha for verification that the person is not a robot filling in the form. It will also display a google map of my location. |
+| **Computer Repair and Assistance** | This page will talk about pricing for various computer repair and assistance in person.  |
+| **CRM Home Page** | This is a CRM home page that will briefly mention the Realty Express CRM that my friend and I built together. In the future this page will have more CRMs that I have planned to build. |
+| **Contact Us** | This is a contact us page. |
+| **Computer Repair in Kentucky** | This is a page that was written out from a SEO specialist to increase searches for my business. It talks about computer repair from our point of view.|
+| **Computer Services Home Page** | This page will briefly list the services that we help Businesses and Residential consumers. |
+| **Contract** | This is a page that shows the entire website contract between me and my customers. Always subject to change. |
+| **Discounts** | This page is a page that will show all referral links that Warf Designs has of software and items that they recommend to purchase, that will also give people a discount. |
+| **Github Portfolio** | The github portfolio shows all of my public repos. |
+| **Home** | The landing page provides users with some information about Warf Designs, and what I do for a living. It will also list the services I offer on the page, provide a domain search, reviews of warf designs, and a contact us location for people to fill out or call me.  |
+| **MSP Services** | This page briefly describes what services I provide as a MSP provider. More details will be added in the future. |
+| **PC-Matic** | This page is simply a link to a PDF file that shows all the featurees of PC-Matic's Enterprise Endpoint Version. |
+| **Portfolio Landing Page** | This page will show a link to  wordpress website projects, github projects, and video editing projects that we've worked on in the past. |
 | **Privacy Policy** | This page will discuss the Privacy Policy.|
+| **Services Home Page** | |
+| **VHS To Digitial Conversion** | This page talks about VHS conversion and talks about the benefits of converting your old tapes. |
+| **Video and Film Digitizing Home Page** | This page will have information about my digitizing services and pricing. It will also include a calculator for estimatwing pricing for customers along with bulk pricing. |
+| **Videography Home Page** | This page will provide estimates for how much it costs for recording and editing work done by Warf Designs. |
+| **Video Editing** | This page briefly shows my portfolio with video editing. |
+| **Website Design and Development Home Page** | This page shows the development and design process  for websites e build. It also answers a few frequently asked questions. |
+| **Website Hosting Home Page** | This page will discuss briefly what I offer in hosting. |
+| **WordPress Portfolio** | This page will show wordpress website projects.
+| **WordPress Plugins Home Page** | This page will list plugins that I have built. |
+
+
+
 
 <em>There are a total of 39 pages, however, not all of them are complete with content. Please refer to the sitemap page to see more after you launch the site. I plan to continue adding more to this project after the completion date. So there may be even more incomplete files.</em>
 
