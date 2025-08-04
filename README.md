@@ -26,7 +26,7 @@ Eventually it will have forms for customers to sign contract agreements, forms f
 | **About Us** | This page will have information about Warf Designs, and how I got started. It will also have three profiles listed there of people who help with the business.|
 | **Digitizing Services** | This page will have information about my digitizing services and pricing. It will also include a calculator for estimating pricing for customers along with bulk pricing. |
 | **Website Design** | This page shows the development and design process  for websites we build. It also answers a few frequently asked questions. |
-| **Website Hosting** | This page will will discuss briefly what I offer in hosting. |
+| **Website Hosting** | This page will discuss briefly what I offer in hosting. |
 | **WordPress Plugins** | This page will list plugins that I have built. |
 | **Videography** | This page will provide estimates for how much it costs for recording and editing work done by Warf Designs. |
 | **Computer Repair and Assistance** | This page will talk about pricing for various computer repair and assistance in person.  |
