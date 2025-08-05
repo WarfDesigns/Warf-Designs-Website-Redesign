@@ -212,6 +212,8 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
+    text-decoration: none;
+    color: white;
 }    
     /* Container */
 .appmenucontainer {
@@ -228,6 +230,12 @@ body {
     justify-content: center;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+}
+
+.appmenucontainer a {
+    color:white;
+    text-decoration: none;
 }
 
   /* Main nav */
