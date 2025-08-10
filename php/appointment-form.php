@@ -16,9 +16,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message .= "Notes:\n" . htmlspecialchars($_POST["notes"]) . "\n";
     
     if (mail($to, $subject, $message, $headers)) {
-        echo "<h2>Thank you! Your appointment request has been sent.</h2>";
+        // Redirect to thank-you page
+        header("Location: thank-you.html"); 
+        exit();
     } else {
-        echo "<h2>Sorry, there was a problem sending your request. Please try again later.</h2>";
+        // Redirect to an error page
+        header("Location: error.html");
+        exit();
     }
 }
 ?>
