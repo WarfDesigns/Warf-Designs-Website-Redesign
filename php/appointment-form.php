@@ -17,11 +17,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     if (mail($to, $subject, $message, $headers)) {
         // Redirect to thank-you page
-        header("Location: thank-you.html"); 
+        header("Location: /page/thank-you.html"); 
         exit();
     } else {
         // Redirect to an error page
-        header("Location: error.html");
+        header("Location: /page/error.html");
         exit();
     }
 }
