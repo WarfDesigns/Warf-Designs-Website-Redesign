@@ -133,7 +133,7 @@ function checkDomain() {
       fetch(`https://domainr.p.rapidapi.com/v2/status?domain=${domain}`, {
         method: "GET",
         headers: {
-          "X-RapidAPI-Key": "6b14e08bc5msh581833082c4bdcbp17bf58jsnc332e1eceb3f",
+          "X-RapidAPI-Key": "ENTER_API_KEY_HERE",
           "X-RapidAPI-Host": "domainr.p.rapidapi.com"
         }
       })
